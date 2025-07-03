@@ -1,0 +1,41 @@
+**********FIFO BY PASS*************
+1.Prc_Picking_For_Machining_Data
+2.Prc_Get_FinalPacking_Data
+3.Prc_GetDispatchData
+
+**************Hold Packed Trolley***********
+1.Make option like after machine screen.
+2.All process(Cutting,Machining and Picking) hold trolley by pass fifo.
+
+***********Change the trolley after packing********
+1.Check the trolley packing is completed or not.
+2.new trolley pack size etc.
+3.Old trolley should be change with new trolley as per the old details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT *
+FROM sys.procedures where convert(varchar(10),modify_date,121)='2021-04-09'
+
+select schema_name(schema_id) as schema_name,
+       name as table_name,
+       create_date,
+       modify_date
+from sys.tables
+where convert(varchar(10),create_date,121)='2021-04-09'
+
+order by create_date desc;
+

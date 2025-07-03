@@ -1,0 +1,22 @@
+1) Machine & packing remark mandate check and allow partial trolley for packing -Shared Quote-Not done
+2) SKU & Trolley wise FIFO Both- Shared Quote -Done
+3) Final packing report history coming in blue color and old history trolley record in report- Shared Quote-Done
+4) Mix trolley qtys modify option in update trolley panel option- Shared Quote-Cutting carrd-Done
+
+
+5) Delete trolley history reports- AMC -Done (Updated)
+6) Reprint history report- AMC-Done (Updated)
+7) Quality report must have NG hold filter- AMC-Done (Updated)
+8) After machining NG judgment should come in machining quality report- AMC-Done (Updated)
+9) Packing HHT screen should show pending trolley capacity- AMC-Done (Updated)
+10) Reoiling report check and process check- AMC -Done (Updated)
+11) Time should come packing & machining report with date and shift - AMC -Done (Updated)
+
+
+12) Final packing validation of not mixing multiple models in Trolley-New-done
+
+13) Machining and final packing, machining current inventory report lot & process wise- New-Done
+
+14) Customer return NG from quality form with separate hint, figure should be changed on dashboard quantity minus from final packing inventory-New-Done
+
+15) Trolley NG option in trolley master and same should be validate in packing screen and filter for trolley status- New-Done

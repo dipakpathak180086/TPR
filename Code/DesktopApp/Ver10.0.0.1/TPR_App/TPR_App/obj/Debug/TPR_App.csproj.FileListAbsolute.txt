@@ -1,0 +1,167 @@
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmColorMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerReturn.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDeleteTrolleyCard.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchCancel.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmAfterMachiningNg.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmFIFOAction.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmAfterPackingHold.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyExchange.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyReceiving.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmNgPercentage.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachiningHold.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyStock.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptPicking.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyDeleteHis.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyReceiving.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInventory.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptDispatch.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptFinalPacking.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptNgView.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+E:\DIPAK\Development\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmColorMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerReturn.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDeleteTrolleyCard.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchCancel.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmAfterMachiningNg.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmFIFOAction.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmAfterPackingHold.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyExchange.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyReceiving.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmNgPercentage.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachiningHold.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyStock.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptPicking.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyDeleteHis.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyReceiving.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInventory.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptDispatch.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptFinalPacking.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptNgView.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.ResolveComReference.cache
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.AssemblyReference.cache
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.ResolveComReference.cache
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmColorMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerReturn.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDeleteTrolleyCard.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchCancel.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmAfterMachiningNg.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmFIFOAction.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmAfterPackingHold.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyExchange.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyReceiving.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmNgPercentage.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachiningHold.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyStock.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptPicking.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyDeleteHis.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyReceiving.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInventory.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptDispatch.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptFinalPacking.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptNgView.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReprintHistory.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyExchangeHistory.resources
+D:\Projects\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptPendingMachiningPacking.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptPendingMachiningPacking.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptTrolleyExchangeHistory.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReprintHistory.resources
+D:\Projects\Live Project\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csprojAssemblyReference.cache

@@ -1,0 +1,39 @@
+USE [TPR_SATO]
+GO
+
+INSERT INTO [dbo].[FinalPacking]
+           ([Shift]
+           ,[ModelNo]
+           ,[TrolleyNo]
+           ,[LotNo]
+           ,[LotNoDate]
+           ,[MachiningTrolleyCard]
+           ,[Status]
+           ,[TotalQty]
+           ,[OkQty]
+           ,[NgQty]
+           ,[PackOn]
+           ,[PackBy])
+     VALUES
+           ('A'
+           ,'68K20'
+           ,26
+           ,'02071911201'
+           ,'2019-07-02'
+           ,'68k20-02071911103-1201'
+           ,1
+           ,202
+           ,202
+           ,0
+            ,DATEADD(D,-7,GETDATE())
+           ,'MANUAL')
+GO
+
+
+
+		  --Updat Trolley
+		  Update TrolleyMaster Set PackQty = PackQty + 202 Where TrolleyNo = 26
+		  --Update Trolley Status
+		  Update TrolleyMaster Set IsEmpty = 'False' Where TrolleyNo = 26 And PackSize =  PackQty
+
+

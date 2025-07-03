@@ -1,0 +1,12 @@
+INSERT INTO [dbo].[DispatchDetail]([DispatchOrderId],[Shift],[ModelNo],[TrolleyNo]
+			,[LotNo],[LotNoDate],[MachiningTrolleyCard],[Qty],[DispatchOn],[DispatchBy])
+			Select 13,'A',ModelNo,'575',LotNo,LotNoDate,MachiningTrolleyCard,OkQty,
+			GETDATE(),'MANUAL' From FinalPacking Where ID=877
+			--Update Dispatch order qty
+			Update DispatchOrder Set DispatchQty = DispatchQty + 53 Where Id = 13
+			--Remove reserve qty as it has dispatch now 
+			Update DispatchReservedQty Set ReservedQty = ReservedQty - @Qty Where ModelNo = @ModelNo
+			--Update Trolley status in final packing
+			Update FinalPacking Set Status = @FinalPackStatus Where TrolleyNo = @TrolleyNo
+			--Update TrolleyStatus
+			Update TrolleyMaster Set Status = @TrolleyStatus Where TrolleyNo = @TrolleyNo

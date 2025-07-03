@@ -1,0 +1,227 @@
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.csprojResolveAssemblyReference.cache
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.Menu.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.UserMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.UserTypeMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.TrolleyMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.Login.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.LocationMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.LineMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.ShiftMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.PutAway.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.ModelMaster.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.QASampling.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.QA.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.CuttingOld.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+F:\Mayank\Projects\Running Projects\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.Cache
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmPutAway.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerTrolleyReceiving.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Amit\Project\TPR\DesktopApp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerTrolleyReceiving.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmPutAway.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Phase2\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerTrolleyReceiving.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmPutAway.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptNgView.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmColorMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyStock.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2WithNewRequirement\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInventory.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmColorMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyStock.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerTrolleyReceiving.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmPutAway.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInventory.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptNgView.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Phase2Print MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\bin\Debug\TPR_App.exe.config
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\bin\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\bin\Debug\TPR_App.pdb
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmChangePassword.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmMenu.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmColorMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmGroupMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmMachineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyStock.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingCardUpdate.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmDispatchOrder.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCustomerTrolleyReceiving.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmPutAway.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmUserMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTrolleyMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmShiftMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmModelMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLogin.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLineMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmLocationMaster.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmReprint.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmQASampling.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmQA.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmProductionPlan.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCuttingDefect.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmTest.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.Properties.Resources.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInventory.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptDispatch.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptFinalPacking.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptNgView.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptMachining.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptReOiling.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptQA.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptCutting.resources
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.exe
+D:\Amit\Project\TPR\DesktopApp\Ver3.0.0.0 MultipleTrolleyNoTemp\TPR_App\TPR_App\obj\Debug\TPR_App.pdb

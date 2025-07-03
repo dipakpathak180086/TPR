@@ -1,0 +1,31 @@
+Prc_Get_FinalPacking_Data
+Prc_Picking_For_Machining_Data
+Prc_GetDispatchData
+PRC_FIFO_ACTION
+Prc_ExchangeTrolleyHistory
+Prc_GetCustomer
+Prc_CustomerReturn
+Prc_Rpt_Pending_Machining_Packing
+Prc_TrolleyMaster
+Prc_ValidateTrolleyNo
+
+Prc_Rpt_FinalPacking
+Prc_ValidateTrolleyNo
+Prc_Get_Machining_Data
+Prc_SaveMachiningData
+Prc_Update_Cutting_Trolley
+
+Alter table DispatchDetail_Deleted add Status varchar(10)
+ALTER TABLE TrolleyMaster ADD IsNG bit;
+ALTER TABLE Cutting ADD MachiningQty int;
+New Table FIFOAction_SKU
+
+
+INSERT [dbo].[ModuleMaster] ([ModuleId], [ModuleName], [Active]) VALUES (312, N'Exchange Trolley History', 1)
+
+INSERT [dbo].[ModuleMaster] ([ModuleId], [ModuleName], [Active]) VALUES (313, N'Pending Machining Packing History', 1)
+
+
+INSERT [dbo].[GroupRight] ([GroupName], [ModuleId], [CreatedOn], [CreatedBy]) VALUES (N'ADMIN', 312, CAST(N'2021-12-01T11:17:01.277' AS DateTime), N'1')
+
+INSERT [dbo].[GroupRight] ([GroupName], [ModuleId], [CreatedOn], [CreatedBy]) VALUES (N'ADMIN', 313, CAST(N'2019-04-16T16:21:23.797' AS DateTime), N'1')

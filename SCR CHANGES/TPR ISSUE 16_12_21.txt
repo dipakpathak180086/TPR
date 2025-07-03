@@ -1,0 +1,6 @@
+1.Bck Button on main menu.--Done
+2.Lot Number should be text in export.--Done
+3.Trolley Master printing problem.--Done
+4.Trolley Exchange History not ok.
+5.Export Dashboard button not align properly.---Done
+6.Disptch Report and Trolley Receiving His multi customer report not working.--Done

@@ -1,0 +1,5 @@
+***21-08-19****
+1.Manual update trolley no 510 pack qty and status and insert one lot no data from final packing to dispatch details
+
+***26-08-19****
+1.Remove all trolleycard before 10th of august for model br10

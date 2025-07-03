@@ -1,0 +1,7 @@
+SAR-N-PG02J28K
+TPR_SATO
+sa
+sato@123
+CommServerIP=192.168.225.89
+CommServer Port = 9100
+ExeName=TPR_App
