@@ -1,0 +1,117 @@
+
+[Log Startup at 13.08.59]
+2025-07-10 13.08.59.396 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2025-07-10 13.08.59.522 (Info) Server.StartService - Starting ClientServices...
+2025-07-10 13.08.59.632 (Info) ClientService.Initialize - Client service pool created for 500 threads.
+2025-07-10 13.09.06.757 (Info) ClientService.Start - Client threads on server: 500.
+2025-07-10 13.09.06.876 (Info) Server.StartService - Create new listener on server...
+2025-07-10 13.09.06.986 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2025-07-10 13.09.07.096 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2025-07-10 13.09.07.198 (Info) Server.Listener.Start - Starting listener...
+2025-07-10 13.09.07.308 (Info) Server.Listener - Server started on port 9100
+2025-07-10 13.10.48.759 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.10.48.888 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.10.48.995 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.10.49.097 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=V_USER~1~1
+2025-07-10 13.10.49.442 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~1~1~ADMIN
+2025-07-10 13.10.49.777 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.10.49.887 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.10.49.997 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.10.50.107 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=GET_USER_RIGHT~ADMIN
+2025-07-10 13.10.50.217 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~101#102#104#105#106#107#108#109#110#201#202#203#204#205#206#207#208#209#211#212#213#214#215#216#217#218#219#220#221#222#301#302#303#304#305#306#307#308#309#310#311#312#313#401
+2025-07-10 13.10.51.846 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.10.51.955 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.10.52.065 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.10.52.175 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~BIND_PROCESS
+2025-07-10 13.10.52.277 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~CUTTING#MACHINING#PACKING
+2025-07-10 13.10.52.387 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.10.52.497 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.10.52.607 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.10.52.711 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~BIND_WH
+2025-07-10 13.10.52.818 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~W0001
+2025-07-10 13.10.52.921 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.10.53.030 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.10.53.140 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.10.53.250 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~BIND_MODEL
+2025-07-10 13.10.53.352 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~56RA0#68K20#83M00#84MB0#BR10#DRAGON#HSPP-Z4M/Z4V#K70#KYJF#Z4M#Z4V
+2025-07-10 13.11.14.792 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.11.14.902 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.11.15.009 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.11.15.113 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~BIND_PROCESS
+2025-07-10 13.11.15.223 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~CUTTING#MACHINING#PACKING
+2025-07-10 13.11.15.342 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.11.15.452 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.11.15.562 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.11.15.672 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~BIND_WH
+2025-07-10 13.11.15.782 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~W0001
+2025-07-10 13.11.15.893 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.11.15.997 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.11.16.113 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.11.16.223 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~BIND_MODEL
+2025-07-10 13.11.16.333 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~56RA0#68K20#83M00#84MB0#BR10#DRAGON#HSPP-Z4M/Z4V#K70#KYJF#Z4M#Z4V
+2025-07-10 13.12.29.647 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.12.29.757 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.12.29.867 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.12.29.979 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~OUT_PROCESS~CUTTING~W0001~BR10~HA062300-4310,15,2605251519BMAL2,0023~False~True~1
+2025-07-10 13.12.30.090 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=INVALID~THIS BARCODE IS NOT BELONG TO THIS PROCESS OR QC NOT DONE
+2025-07-10 13.12.36.610 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.12.36.720 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.12.36.830 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.12.36.940 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~OUT_PROCESS~CUTTING~W0001~BR10~HA062300-4310,15,2605251519BMAL2,0023~False~True~1
+2025-07-10 13.12.37.051 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=INVALID~THIS BARCODE IS NOT BELONG TO THIS PROCESS OR QC NOT DONE
+2025-07-10 13.13.17.627 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.13.17.739 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.13.17.852 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.13.17.958 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~OUT_PROCESS~CUTTING~W0001~BR10~BR10-09091910104-0102-0103~False~True~1
+2025-07-10 13.13.23.579 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=INVALID~THIS BARCODE IS NOT BELONG TO THIS PROCESS OR QC NOT DONE
+2025-07-10 13.13.30.033 (Info) Server.Listener - New client connection detected...
+2025-07-10 13.13.30.136 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-10 13.13.30.246 (Info) ClientHandler.Initialize - Connected client : 192.168.76.76
+2025-07-10 13.13.30.356 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Mesg=IN_OUT_WARD~OUT_PROCESS~MACHINING~W0001~BR10~BR10-09091910104-0102-0103~False~True~1
+2025-07-10 13.13.30.576 (Data) ClientHandler.ProcessData - IP=192.168.76.76 Resp=VALID~Y
+2025-07-10 14.18.55.829 (Info) Server.StopService - Stopping client services...
+2025-07-10 14.18.58.094 (Info) ClientService.Stop - Stopping thread service...
+2025-07-10 14.18.58.273 (Info) ClientService.Stop - Thread pool stopped.
+2025-07-10 14.18.58.375 (Info) ClientService.Stop - Stop client connections 12 active connections.
+2025-07-10 14.18.58.485 (Info) ClientHandler.Close - Duration: 01:08:05.9166818
+2025-07-10 14.18.58.595 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.18.58.705 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.18.58.816 (Info) ClientHandler.Close - Duration: 01:05:28.1449467
+2025-07-10 14.18.58.934 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.18.59.044 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.18.59.154 (Info) ClientHandler.Close - Duration: 01:07:43.1500030
+2025-07-10 14.18.59.263 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.18.59.366 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.18.59.476 (Info) ClientHandler.Close - Duration: 01:06:21.5362709
+2025-07-10 14.18.59.586 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.18.59.694 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.18.59.805 (Info) ClientHandler.Close - Duration: 01:08:05.5082692
+2025-07-10 14.18.59.907 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.00.011 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.00.121 (Info) ClientHandler.Close - Duration: 01:07:42.7264497
+2025-07-10 14.19.00.222 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.00.332 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.00.442 (Info) ClientHandler.Close - Duration: 01:08:06.3324152
+2025-07-10 14.19.00.552 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.00.662 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.00.774 (Info) ClientHandler.Close - Duration: 01:05:40.6135888
+2025-07-10 14.19.00.884 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.00.994 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.01.104 (Info) ClientHandler.Close - Duration: 01:06:28.5626767
+2025-07-10 14.19.01.214 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.01.317 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.01.431 (Info) ClientHandler.Close - Duration: 01:08:08.4006719
+2025-07-10 14.19.01.541 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.01.651 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.01.760 (Info) ClientHandler.Close - Duration: 01:08:09.4430175
+2025-07-10 14.19.01.870 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.01.980 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.02.089 (Info) ClientHandler.Close - Duration: 01:07:43.3543026
+2025-07-10 14.19.02.199 (Info) ClientHandler.Close - Closing Connection to Client 192.168.76.76
+2025-07-10 14.19.02.302 (Info) ClientHandler.Close - Connection Closed.
+2025-07-10 14.19.02.412 (Info) Server.ClientTask.Stop - Completed successfully.
+2025-07-10 14.19.02.522 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2025-07-10 14.19.02.631 (Info) Server.StopService.Listener.Stop -  successfull.
+2025-07-10 14.19.02.741 (Info) Server.ListenerThread.Join - Completed.
+2025-07-10 14.19.02.845 (Info) Server.StopService - Uptime: 0 days 1 hours 9 minutes 59 seconds.
+2025-07-10 14.19.02.955 (Info) EventServer.StopService - Sending Signal to Stop Event Service

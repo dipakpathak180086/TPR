@@ -78,6 +78,8 @@
             this.lblReceivingPendingCount = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lblWHMaster = new System.Windows.Forms.Label();
+            this.picWHMater = new System.Windows.Forms.PictureBox();
             this.lblColorMaster = new System.Windows.Forms.Label();
             this.lblCustomerMaster = new System.Windows.Forms.Label();
             this.lblTrolleyMaster = new System.Windows.Forms.Label();
@@ -168,6 +170,8 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.lblInOutReport = new System.Windows.Forms.Label();
+            this.picInOutReport = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picChangePassword)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -179,6 +183,7 @@
             this.tabPageReceivingPending.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picWHMater)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picColorMaster)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCustomerMaster)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTrolleryMaster)).BeginInit();
@@ -223,6 +228,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picInOutReport)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -835,7 +841,7 @@
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dgv.Size = new System.Drawing.Size(562, 463);
+            this.dgv.Size = new System.Drawing.Size(562, 475);
             this.dgv.StandardTab = true;
             this.dgv.TabIndex = 203;
             this.dgv.TabStop = false;
@@ -867,6 +873,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.lblWHMaster);
+            this.tabPage1.Controls.Add(this.picWHMater);
             this.tabPage1.Controls.Add(this.lblColorMaster);
             this.tabPage1.Controls.Add(this.lblCustomerMaster);
             this.tabPage1.Controls.Add(this.lblTrolleyMaster);
@@ -894,6 +902,32 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Master";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // lblWHMaster
+            // 
+            this.lblWHMaster.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblWHMaster.AutoSize = true;
+            this.lblWHMaster.Enabled = false;
+            this.lblWHMaster.Location = new System.Drawing.Point(39, 338);
+            this.lblWHMaster.Name = "lblWHMaster";
+            this.lblWHMaster.Size = new System.Drawing.Size(132, 19);
+            this.lblWHMaster.TabIndex = 21;
+            this.lblWHMaster.Text = "Warehouse Master";
+            // 
+            // picWHMater
+            // 
+            this.picWHMater.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.picWHMater.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picWHMater.Enabled = false;
+            this.picWHMater.Image = ((System.Drawing.Image)(resources.GetObject("picWHMater.Image")));
+            this.picWHMater.Location = new System.Drawing.Point(55, 248);
+            this.picWHMater.Name = "picWHMater";
+            this.picWHMater.Size = new System.Drawing.Size(100, 87);
+            this.picWHMater.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picWHMater.TabIndex = 20;
+            this.picWHMater.TabStop = false;
+            this.picWHMater.Tag = "106";
+            this.picWHMater.Click += new System.EventHandler(this.picWHMater_Click);
             // 
             // lblColorMaster
             // 
@@ -954,7 +988,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(635, 289);
+            this.label5.Location = new System.Drawing.Point(654, 213);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 19);
             this.label5.TabIndex = 9;
@@ -977,7 +1011,7 @@
             this.lblMachineMaster.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblMachineMaster.AutoSize = true;
             this.lblMachineMaster.Enabled = false;
-            this.lblMachineMaster.Location = new System.Drawing.Point(496, 235);
+            this.lblMachineMaster.Location = new System.Drawing.Point(496, 213);
             this.lblMachineMaster.Name = "lblMachineMaster";
             this.lblMachineMaster.Size = new System.Drawing.Size(115, 19);
             this.lblMachineMaster.TabIndex = 5;
@@ -1086,7 +1120,7 @@
             this.picLocationMaster.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.picLocationMaster.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLocationMaster.Image = ((System.Drawing.Image)(resources.GetObject("picLocationMaster.Image")));
-            this.picLocationMaster.Location = new System.Drawing.Point(639, 213);
+            this.picLocationMaster.Location = new System.Drawing.Point(658, 137);
             this.picLocationMaster.Name = "picLocationMaster";
             this.picLocationMaster.Size = new System.Drawing.Size(100, 73);
             this.picLocationMaster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1116,7 +1150,7 @@
             this.picMachineMaster.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picMachineMaster.Enabled = false;
             this.picMachineMaster.Image = ((System.Drawing.Image)(resources.GetObject("picMachineMaster.Image")));
-            this.picMachineMaster.Location = new System.Drawing.Point(499, 159);
+            this.picMachineMaster.Location = new System.Drawing.Point(499, 137);
             this.picMachineMaster.Name = "picMachineMaster";
             this.picMachineMaster.Size = new System.Drawing.Size(100, 73);
             this.picMachineMaster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1619,6 +1653,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.lblInOutReport);
+            this.tabPage3.Controls.Add(this.picInOutReport);
             this.tabPage3.Controls.Add(this.lblMachiningPackingHistory);
             this.tabPage3.Controls.Add(this.picPendingMachiningPackingHistory);
             this.tabPage3.Controls.Add(this.lblTrolleyExchangeHistory);
@@ -2079,6 +2115,32 @@
             this.pictureBox11.TabIndex = 16;
             this.pictureBox11.TabStop = false;
             // 
+            // lblInOutReport
+            // 
+            this.lblInOutReport.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblInOutReport.AutoSize = true;
+            this.lblInOutReport.Enabled = false;
+            this.lblInOutReport.Location = new System.Drawing.Point(603, 307);
+            this.lblInOutReport.Name = "lblInOutReport";
+            this.lblInOutReport.Size = new System.Drawing.Size(151, 19);
+            this.lblInOutReport.TabIndex = 38;
+            this.lblInOutReport.Text = "Warehouse Opreation";
+            // 
+            // picInOutReport
+            // 
+            this.picInOutReport.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.picInOutReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picInOutReport.Enabled = false;
+            this.picInOutReport.Image = ((System.Drawing.Image)(resources.GetObject("picInOutReport.Image")));
+            this.picInOutReport.Location = new System.Drawing.Point(627, 231);
+            this.picInOutReport.Name = "picInOutReport";
+            this.picInOutReport.Size = new System.Drawing.Size(100, 73);
+            this.picInOutReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picInOutReport.TabIndex = 37;
+            this.picInOutReport.TabStop = false;
+            this.picInOutReport.Tag = "308";
+            this.picInOutReport.Click += new System.EventHandler(this.picInOutReport_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -2115,6 +2177,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picWHMater)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picColorMaster)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCustomerMaster)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTrolleryMaster)).EndInit();
@@ -2161,6 +2224,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picInOutReport)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2303,5 +2367,9 @@
         private System.Windows.Forms.PictureBox picTrolleyExchangeHistory;
         private System.Windows.Forms.Label lblMachiningPackingHistory;
         private System.Windows.Forms.PictureBox picPendingMachiningPackingHistory;
+        private System.Windows.Forms.Label lblWHMaster;
+        private System.Windows.Forms.PictureBox picWHMater;
+        private System.Windows.Forms.Label lblInOutReport;
+        private System.Windows.Forms.PictureBox picInOutReport;
     }
 }

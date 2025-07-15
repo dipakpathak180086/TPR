@@ -7,6 +7,8 @@ using TPR_App;
 using System.IO;
 //using UmsDLL;
 using System.Windows.Forms;
+using SatoLib;
+using System.Data.SqlClient;
 namespace COMServer.Classes
 {
     class clsSecurity
@@ -1114,5 +1116,65 @@ namespace COMServer.Classes
         }
 
         #endregion
+
+        #region IN_OUT_WARD
+        public string In_Out_Ward(InOutWard obj)
+        {
+           SqlHelper _SqlHelper = new SqlHelper();
+            try
+            {
+                SqlParameter[] param = new SqlParameter[10];
+
+                param[0] = new SqlParameter("@TYPE", SqlDbType.VarChar, 100);
+                param[0].Value = obj.DbType;
+                param[1] = new SqlParameter("@PROCESS", SqlDbType.VarChar, 50);
+                param[1].Value = obj.Process;
+                param[2] = new SqlParameter("@WH_CODE", SqlDbType.VarChar, 50);
+                param[2].Value = obj.WarehouseCode;
+                param[3] = new SqlParameter("@MODEL_NO", SqlDbType.VarChar, 50);
+                param[3].Value = obj.ModelNo;
+                param[4] = new SqlParameter("@TRIP", SqlDbType.VarChar, 50);
+                param[4].Value = obj.Trip;
+                param[5] = new SqlParameter("@BARCODE", SqlDbType.VarChar, 50);
+                param[5].Value = obj.Barcode;
+                param[6] = new SqlParameter("@IN_STATUS", SqlDbType.VarChar, 50);
+                param[6].Value = obj.InStatus;
+                param[7] = new SqlParameter("@OUT_STATUS", SqlDbType.VarChar, 50);
+                param[7].Value = obj.OutStatus;
+                param[8] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
+                param[8].Value = obj.CreatedBy;
+                DataTable dt = _SqlHelper.ExecuteDataset(clsMsgRule.mMainSqlConString, CommandType.StoredProcedure, "[PRC_IN_OUT_WARD]", param).Tables[0];
+                if (dt.Rows.Count > 0)
+                {
+                    if (dt.Columns[0].ColumnName == "RESULT")
+                    {
+                        if (dt.Rows[0]["RESULT"].ToString() == "Y")
+                            oRule.sResponse = clsMsgRule.sValid + "~" + dt.Rows[0]["RESULT"].ToString();
+                        else
+                            oRule.sResponse = clsMsgRule.sInValid + "~" + dt.Rows[0]["RESULT"].ToString();
+                    }
+                    else
+                    {
+                        oRule.sResponse = clsMsgRule.sValid + "~";
+                        foreach (DataRow row in dt.Rows)
+                        {
+                            oRule.sResponse += row[0].ToString() + "#";
+                        }
+                        oRule.sResponse = oRule.sResponse.TrimEnd('#');
+                    }
+                }
+                else
+                {
+                    oRule.sResponse = clsMsgRule.sInValid + "~no information return from database";
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return oRule.sResponse;
+        }
+        #endregion
+
     }
 }

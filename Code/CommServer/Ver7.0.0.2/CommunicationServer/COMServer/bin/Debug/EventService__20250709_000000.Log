@@ -1,0 +1,10 @@
+
+[Log Startup at 17.11.21]
+2025-07-09 17.11.21.542 (Info) EventServer.StopService - Stopping events services...
+2025-07-09 17.11.21.542 (Info) EventService.Stop - Stopping service thread...
+2025-07-09 17.11.21.652 (Info) EventService.Stop - Events Thread pool stopped.
+2025-07-09 17.11.21.652 (Info) EventService.Stop - Stop event client connections 0 active connections.
+2025-07-09 17.11.21.652 (Info) EventServer.ClientTask.Stop - Completed successfully.
+2025-07-09 17.11.21.652 (Info) EventServer.StopService.Listener.Stop - Initiating listener stop....
+2025-07-09 17.11.21.652 (Info) EventServer.StopService.Listener.Stop -  successfull.
+2025-07-09 17.11.21.846 (Info) EventServer.ListenerThread.Join - Completed.

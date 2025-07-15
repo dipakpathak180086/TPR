@@ -76,6 +76,10 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SatoLib, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\SatoLib.dll</HintPath>
+    </Reference>
     <Reference Include="SATOPrinterAPI, Version=2.0.2.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\SATOPrinterAPI.dll</HintPath>
@@ -217,6 +221,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CommServerIcon.ico" />
+    <Content Include="DLL\SatoLib.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

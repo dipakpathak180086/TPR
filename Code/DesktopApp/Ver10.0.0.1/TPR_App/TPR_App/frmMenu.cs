@@ -423,6 +423,10 @@ namespace TPR_App
                             picColorMaster.Enabled = true;
                             lblColorMaster.Enabled = true;
                             break;
+                        case "110":
+                            picWHMater.Enabled = true;
+                            lblWHMaster.Enabled = true;
+                            break;
                         case "201":
                             picProductionPlan.Enabled = true;
                             lblProductionPlan.Enabled = true;
@@ -543,6 +547,10 @@ namespace TPR_App
                         case "313":
                             picPendingMachiningPackingHistory.Enabled = true;
                             lblMachiningPackingHistory.Enabled = true;
+                            break;
+                        case "314":
+                            picInOutReport.Enabled = true;
+                            lblInOutReport.Enabled = true;
                             break;
 
                         default:
@@ -889,10 +897,25 @@ namespace TPR_App
             frm.FormClosing += OFrm_FormClosing;
             this.Hide();
         }
+        private void picWHMater_Click(object sender, EventArgs e)
+        {
+            frmWHMaster frm = new frmWHMaster();
+            frm.Show();
+            frm.FormClosing += OFrm_FormClosing;
+            this.Hide();
+        }
 
         private void cmbModelNo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void picInOutReport_Click(object sender, EventArgs e)
+        {
+            frmRptInOutWarehouse frm = new frmRptInOutWarehouse();
+            frm.Show();
+            frm.FormClosing += OFrm_FormClosing;
+            this.Hide();
         }
 
         private void chkNotUsedTrolley_CheckedChanged(object sender, EventArgs e)

@@ -213,5 +213,17 @@ namespace TPR_App
     }
     #endregion
 
+    #region Warehouse Master
+
+    public class PL_WH_MASTER:Common
+    {
+        public string WHCode { get; set; }
+        public string WHName { get; set; }
+        public string WHLocation { get; set; }
+        public bool Status { get; set; }
+
+    }
+
+    #endregion
 
 }

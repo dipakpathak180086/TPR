@@ -5,11 +5,15 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using SatoLib;
 
 namespace TPR_App
 {
     public class Dal
     {
+        SqlHelper _SqlHelper = new SqlHelper();
+        
+
         StringBuilder _SbQry;
 
         #region AppVersion Update
@@ -1358,6 +1362,61 @@ namespace TPR_App
             }
         }
 
+        #endregion
+
+        #region Warehouse Master
+        #region MyFuncation
+        /// <summary>
+        /// Execute Operation 
+        /// </summary>
+        /// <returns></returns>
+        public DataTable WarehouseMasterExecuteTask(PL_WH_MASTER obj)
+        {
+            _SqlHelper = new SqlHelper();
+            try
+            {
+                SqlParameter[] param = new SqlParameter[6];
+
+                param[0] = new SqlParameter("@TYPE", SqlDbType.VarChar, 100);
+                param[0].Value = obj.DbType;
+                param[1] = new SqlParameter("@WH_CODE", SqlDbType.VarChar, 50);
+                param[1].Value = obj.WHCode;
+                param[2] = new SqlParameter("@WH_NAME", SqlDbType.VarChar, 50);
+                param[2].Value = obj.WHName;
+                param[3] = new SqlParameter("@WH_LOCATION", SqlDbType.VarChar, 50);
+                param[3].Value = obj.WHLocation;
+                param[4] = new SqlParameter("@STATUS", SqlDbType.VarChar, 50);
+                param[4].Value = obj.Status;
+                param[5] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
+                param[5].Value = obj.CreatedBy;
+                return _SqlHelper.ExecuteDataset(ClsGlobal.mMainSqlConString, CommandType.StoredProcedure, "[PRC_WH_MASTER]", param).Tables[0];
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        #endregion
+        #endregion
+
+        #region Warehouse InOut Operation Report
+
+        public DataTable GetWarehouseOperationInOutReport(string Type, string FromDate = "", string ToDate = "", string Process = "")
+        {
+            clsDB oDb = new clsDB();
+            try
+            {
+                _SbQry = new StringBuilder("Exec [PRC_RPT_WHAREHOUSE_IN_OUT_OPREATION] '" + Type + "','" + FromDate + "','" + ToDate + "','" + Process + "'");
+                oDb.Connect();
+                return oDb.GetDataTable(_SbQry.ToString());
+            }
+            catch (Exception ex) { throw ex; }
+            finally
+            {
+                oDb.DisConnect();
+                oDb = null;
+            }
+        }
         #endregion
 
     }

@@ -17,6 +17,7 @@ namespace COMServer.Classes
         public static string sInValid = "INVALID";
         public static string sError = "ERROR";
         public static int sPort;
+        public static string mMainSqlConString = string.Empty;
     }
 }
 

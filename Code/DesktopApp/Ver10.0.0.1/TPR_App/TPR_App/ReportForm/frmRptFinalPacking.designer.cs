@@ -582,7 +582,6 @@
             // Id
             // 
             this.Id.DataPropertyName = "Id";
-            this.Id.Frozen = true;
             this.Id.HeaderText = "Id";
             this.Id.Name = "Id";
             this.Id.ReadOnly = true;
@@ -601,7 +600,6 @@
             // GColor
             // 
             this.GColor.DataPropertyName = "GColor";
-            this.GColor.Frozen = true;
             this.GColor.HeaderText = "Color";
             this.GColor.Name = "GColor";
             this.GColor.ReadOnly = true;
@@ -611,7 +609,6 @@
             // Line
             // 
             this.Line.DataPropertyName = "LineNo";
-            this.Line.Frozen = true;
             this.Line.HeaderText = "Line";
             this.Line.Name = "Line";
             this.Line.ReadOnly = true;
@@ -620,7 +617,6 @@
             // Shift
             // 
             this.Shift.DataPropertyName = "Shift";
-            this.Shift.Frozen = true;
             this.Shift.HeaderText = "Shift";
             this.Shift.Name = "Shift";
             this.Shift.ReadOnly = true;
@@ -629,7 +625,6 @@
             // ModelNo
             // 
             this.ModelNo.DataPropertyName = "ModelNo";
-            this.ModelNo.Frozen = true;
             this.ModelNo.HeaderText = "ModelNo";
             this.ModelNo.Name = "ModelNo";
             this.ModelNo.ReadOnly = true;
@@ -638,7 +633,6 @@
             // TrolleyNo
             // 
             this.TrolleyNo.DataPropertyName = "TrolleyNo";
-            this.TrolleyNo.Frozen = true;
             this.TrolleyNo.HeaderText = "TrolleyNo";
             this.TrolleyNo.Name = "TrolleyNo";
             this.TrolleyNo.ReadOnly = true;
@@ -647,7 +641,6 @@
             // LotNo
             // 
             this.LotNo.DataPropertyName = "LotNo";
-            this.LotNo.Frozen = true;
             this.LotNo.HeaderText = "LotNo";
             this.LotNo.Name = "LotNo";
             this.LotNo.ReadOnly = true;
@@ -656,7 +649,6 @@
             // TotalQty
             // 
             this.TotalQty.DataPropertyName = "TotalQty";
-            this.TotalQty.Frozen = true;
             this.TotalQty.HeaderText = "TotalQty";
             this.TotalQty.Name = "TotalQty";
             this.TotalQty.ReadOnly = true;
@@ -665,7 +657,6 @@
             // OkQty
             // 
             this.OkQty.DataPropertyName = "OkQty";
-            this.OkQty.Frozen = true;
             this.OkQty.HeaderText = "OkQty";
             this.OkQty.Name = "OkQty";
             this.OkQty.ReadOnly = true;
@@ -674,7 +665,6 @@
             // NGQty
             // 
             this.NGQty.DataPropertyName = "NGQty";
-            this.NGQty.Frozen = true;
             this.NGQty.HeaderText = "NGQty";
             this.NGQty.Name = "NGQty";
             this.NGQty.ReadOnly = true;
@@ -683,7 +673,6 @@
             // IsEmpty
             // 
             this.IsEmpty.DataPropertyName = "IsEmpty";
-            this.IsEmpty.Frozen = true;
             this.IsEmpty.HeaderText = "IsEmpty";
             this.IsEmpty.Name = "IsEmpty";
             this.IsEmpty.ReadOnly = true;
@@ -692,7 +681,6 @@
             // ExchangeTrolleys
             // 
             this.ExchangeTrolleys.DataPropertyName = "ExchangeTrolleys";
-            this.ExchangeTrolleys.Frozen = true;
             this.ExchangeTrolleys.HeaderText = "Excha.Trolleys";
             this.ExchangeTrolleys.Name = "ExchangeTrolleys";
             this.ExchangeTrolleys.ReadOnly = true;
@@ -701,7 +689,6 @@
             // PackOn
             // 
             this.PackOn.DataPropertyName = "PackOn";
-            this.PackOn.Frozen = true;
             this.PackOn.HeaderText = "PackOn";
             this.PackOn.Name = "PackOn";
             this.PackOn.ReadOnly = true;
@@ -710,7 +697,6 @@
             // PackBy
             // 
             this.PackBy.DataPropertyName = "PackBy";
-            this.PackBy.Frozen = true;
             this.PackBy.HeaderText = "PackBy";
             this.PackBy.Name = "PackBy";
             this.PackBy.ReadOnly = true;
@@ -719,7 +705,6 @@
             // MachiningOperator
             // 
             this.MachiningOperator.DataPropertyName = "MachiningOperator";
-            this.MachiningOperator.Frozen = true;
             this.MachiningOperator.HeaderText = "MachiningOperator";
             this.MachiningOperator.Name = "MachiningOperator";
             this.MachiningOperator.ReadOnly = true;
@@ -728,7 +713,6 @@
             // MachiningInspector
             // 
             this.MachiningInspector.DataPropertyName = "MachiningInspector";
-            this.MachiningInspector.Frozen = true;
             this.MachiningInspector.HeaderText = "MachiningInspector";
             this.MachiningInspector.Name = "MachiningInspector";
             this.MachiningInspector.ReadOnly = true;
@@ -736,8 +720,7 @@
             // 
             // MachiningLineNo
             // 
-            this.MachiningLineNo.DataPropertyName = "LineNo";
-            this.MachiningLineNo.Frozen = true;
+            this.MachiningLineNo.DataPropertyName = "MLineNo";
             this.MachiningLineNo.HeaderText = "MachiningLineNo";
             this.MachiningLineNo.Name = "MachiningLineNo";
             this.MachiningLineNo.ReadOnly = true;

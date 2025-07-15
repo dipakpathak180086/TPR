@@ -35,6 +35,11 @@
     <ApplicationIcon>iconfinder_Cart_ecommerce_shop_commerce_supermarket_trolley_shopping_1886549.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SatoLib, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\SatoLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -68,6 +73,12 @@
     </Compile>
     <Compile Include="MasterForm\frmColorMaster.designer.cs">
       <DependentUpon>frmColorMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterForm\frmWHMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm\frmWHMaster.designer.cs">
+      <DependentUpon>frmWHMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterForm\frmCustomerMaster.cs">
       <SubType>Form</SubType>
@@ -265,6 +276,12 @@
     <Compile Include="ReportForm\frmRptPicking.designer.cs">
       <DependentUpon>frmRptPicking.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportForm\frmRptInOutWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm\frmRptInOutWarehouse.designer.cs">
+      <DependentUpon>frmRptInOutWarehouse.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportForm\frmRptTrolleyExchangeHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -345,6 +362,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterForm\frmColorMaster.resx">
       <DependentUpon>frmColorMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterForm\frmWHMaster.resx">
+      <DependentUpon>frmWHMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterForm\frmCustomerMaster.resx">
       <DependentUpon>frmCustomerMaster.cs</DependentUpon>
@@ -451,6 +471,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\frmRptPicking.resx">
       <DependentUpon>frmRptPicking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm\frmRptInOutWarehouse.resx">
+      <DependentUpon>frmRptInOutWarehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\frmRptTrolleyExchangeHistory.resx">
       <DependentUpon>frmRptTrolleyExchangeHistory.cs</DependentUpon>
@@ -583,7 +606,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DLL\SatoLib.dll" />
     <Content Include="iconfinder_Cart_ecommerce_shop_commerce_supermarket_trolley_shopping_1886549.ico" />
+    <Content Include="Resources\InOutReport.png" />
     <None Include="Resources\iconfinder_Checklist_clipboard_inventory_list_report_tasks_todo_1886533.png" />
     <None Include="Resources\iconfinder_juice-pack_307358.png" />
     <None Include="Resources\iconfinder_Arrow_doodle_32_3847924.png" />

@@ -1,0 +1,97 @@
+
+[Log Startup at 17.53.28]
+2025-07-07 17.53.28.103 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2025-07-07 17.53.28.211 (Info) Server.StartService - Starting ClientServices...
+2025-07-07 17.53.28.314 (Info) ClientService.Initialize - Client service pool created for 500 threads.
+2025-07-07 17.53.34.022 (Info) ClientService.Start - Client threads on server: 500.
+2025-07-07 17.53.34.129 (Info) Server.StartService - Create new listener on server...
+2025-07-07 17.53.34.230 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2025-07-07 17.53.34.339 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2025-07-07 17.53.34.447 (Info) Server.Listener.Start - Starting listener...
+2025-07-07 17.53.34.556 (Info) Server.Listener - Server started on port 9100
+
+[Log Startup at 17.54.19]
+2025-07-07 17.54.19.975 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2025-07-07 17.54.20.145 (Info) Server.StartService - Starting ClientServices...
+2025-07-07 17.54.20.261 (Info) ClientService.Initialize - Client service pool created for 500 threads.
+2025-07-07 17.54.27.674 (Info) ClientService.Start - Client threads on server: 500.
+2025-07-07 17.54.27.784 (Info) Server.StartService - Create new listener on server...
+2025-07-07 17.54.27.892 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2025-07-07 17.54.28.001 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2025-07-07 17.54.28.108 (Info) Server.Listener.Start - Starting listener...
+2025-07-07 17.54.28.217 (Info) Server.Listener - Server started on port 9100
+2025-07-07 18.06.59.842 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.06.59.965 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.07.00.072 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.07.00.180 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=V_USER~1~1
+2025-07-07 18.07.00.507 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~1~1~ADMIN
+2025-07-07 18.07.00.944 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.07.01.050 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.07.01.159 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.07.01.268 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_USER_RIGHT~ADMIN
+2025-07-07 18.07.01.378 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~101#102#104#105#106#107#108#109#110#201#202#203#204#205#206#207#208#209#211#212#213#214#215#216#217#218#219#220#221#222#301#302#303#304#305#306#307#308#309#310#311#312#313#401
+2025-07-07 18.07.08.108 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.07.08.216 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.07.08.323 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.07.08.432 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_APP_VERSION~
+2025-07-07 18.07.08.543 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~7.9
+2025-07-07 18.07.15.396 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.07.15.505 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.07.15.616 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.07.15.726 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=V_USER~1~1
+2025-07-07 18.07.15.832 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~1~1~ADMIN
+2025-07-07 18.07.15.939 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.07.16.047 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.07.16.154 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.07.16.265 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_USER_RIGHT~ADMIN
+2025-07-07 18.07.16.375 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~101#102#104#105#106#107#108#109#110#201#202#203#204#205#206#207#208#209#211#212#213#214#215#216#217#218#219#220#221#222#301#302#303#304#305#306#307#308#309#310#311#312#313#401
+2025-07-07 18.08.30.257 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.08.30.365 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.08.30.473 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.08.30.582 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_APP_VERSION~
+2025-07-07 18.08.30.691 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~7.9
+2025-07-07 18.08.35.465 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.08.35.573 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.08.35.683 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.08.35.793 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=V_USER~1~1
+2025-07-07 18.08.35.900 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~1~1~ADMIN
+2025-07-07 18.08.36.008 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.08.36.116 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.08.36.225 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.08.36.333 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_USER_RIGHT~ADMIN
+2025-07-07 18.08.36.441 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~101#102#104#105#106#107#108#109#110#201#202#203#204#205#206#207#208#209#211#212#213#214#215#216#217#218#219#220#221#222#301#302#303#304#305#306#307#308#309#310#311#312#313#401
+2025-07-07 18.08.41.594 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.08.41.701 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.08.41.808 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.08.41.917 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_LINE~
+2025-07-07 18.08.42.027 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~01-CNC LINE#02-CNC LINE#03-CNC LINE#04-CNC LINE#05-CNC LINE#06-CNC LINE#1-CASTING LINE 1#2-CASTING LINE 2
+2025-07-07 18.08.49.109 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.08.49.218 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.08.49.326 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.08.49.435 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_COLOR~
+2025-07-07 18.08.49.544 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~BLACK#BLUE#WHITE
+2025-07-07 18.14.54.032 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.14.54.140 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.14.54.248 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.14.54.356 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_APP_VERSION~
+2025-07-07 18.14.54.465 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~7.9
+2025-07-07 18.16.42.048 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.16.42.154 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.16.42.265 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.16.42.373 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_APP_VERSION~
+2025-07-07 18.16.42.482 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~7.9
+2025-07-07 18.22.09.870 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.22.09.980 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.22.10.089 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.22.10.199 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_APP_VERSION~
+2025-07-07 18.22.10.309 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~7.9
+2025-07-07 18.22.14.707 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.22.14.817 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.22.14.927 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.22.15.037 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=V_USER~1~1
+2025-07-07 18.22.15.147 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~1~1~ADMIN
+2025-07-07 18.22.15.257 (Info) Server.Listener - New client connection detected...
+2025-07-07 18.22.15.367 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-07 18.22.15.478 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-07 18.22.15.588 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_USER_RIGHT~ADMIN
+2025-07-07 18.22.15.713 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~101#102#104#105#106#107#108#109#110#201#202#203#204#205#206#207#208#209#211#212#213#214#215#216#217#218#219#220#221#222#301#302#303#304#305#306#307#308#309#310#311#312#313#401

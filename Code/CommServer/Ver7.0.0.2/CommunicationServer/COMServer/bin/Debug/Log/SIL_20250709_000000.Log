@@ -1,0 +1,12 @@
+
+[Log Startup at 17.11.20]
+2025-07-09 17.11.16.595 (Info) Server.StopService - Stopping client services...
+2025-07-09 17.11.20.441 (Info) ClientService.Stop - Stopping thread service...
+2025-07-09 17.11.20.551 (Info) ClientService.Stop - Thread pool stopped.
+2025-07-09 17.11.20.661 (Info) ClientService.Stop - Stop client connections 0 active connections.
+2025-07-09 17.11.20.771 (Info) Server.ClientTask.Stop - Completed successfully.
+2025-07-09 17.11.20.880 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2025-07-09 17.11.20.990 (Info) Server.StopService.Listener.Stop -  successfull.
+2025-07-09 17.11.21.093 (Info) Server.ListenerThread.Join - Completed.
+2025-07-09 17.11.21.208 (Info) Server.StopService - Uptime: 1 days 2 hours 47 minutes 23 seconds.
+2025-07-09 17.11.21.323 (Info) EventServer.StopService - Sending Signal to Stop Event Service

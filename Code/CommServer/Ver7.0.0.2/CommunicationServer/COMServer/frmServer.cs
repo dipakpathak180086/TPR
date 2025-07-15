@@ -33,7 +33,10 @@ namespace COMServer
         static string strConfig = Application.StartupPath + "\\dbSetting.ini";
         static string strPort = Application.StartupPath + "\\Port.txt";
         static string IsRunning = Application.StartupPath + "\\IsRunning.txt";
-
+        public string DataSource { get; set; }
+        public string UserID { get; set; }
+        public string Password { get; set; }
+        public string InitialCatalog { get; set; }
 
 
         #endregion
@@ -47,6 +50,7 @@ namespace COMServer
                 InitializeComponent();
                 defaultDisplay();
                 disConnectUI();
+                ReadSetting();
                 //clsMain.SetLogger();
                 lblVersion.Text = "Version: " + Application.ProductVersion.Trim();
             }
@@ -56,6 +60,26 @@ namespace COMServer
         #endregion
 
         #region local methods
+        void ReadSetting()
+        {
+            try
+            {
+                if (File.Exists(Application.StartupPath + "\\DBSettings.txt"))
+                {
+                    StreamReader sr = new StreamReader(Application.StartupPath + "\\DBSettings.txt");
+                    this.DataSource = sr.ReadLine();
+                    this.InitialCatalog = sr.ReadLine();
+                    this.UserID = sr.ReadLine();
+                    this.Password = sr.ReadLine();
+                    clsMsgRule.mMainSqlConString = "data source=" + DataSource + ";Initial Catalog=" + InitialCatalog + ";User Id=" + UserID + ";Password=" + Password;
+                    sr.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
 
         /// <summary>
         /// Open Socket to communicate Client MC.
@@ -283,7 +307,7 @@ namespace COMServer
                 }
 
                 connectServer();
-
+                
                 lblConnect.Text = "Server Connected : Port : " + clsMsgRule.sPort;
             }
             catch (Exception ex)
@@ -763,6 +787,30 @@ namespace COMServer
                         case "EXCHANGE_TROLLEY":
                             objSecurity = new clsSecurity();
                             Response = objSecurity.ExcangeTrolley(Data[1], Data[2], Data[3], Data[4]);
+                            objSecurity = null;
+                            break;
+                        #endregion
+                        #region IN_OUT_WARD --Added by dipak 07_07_25 for HHT IN_OUT_WARD Operation
+                        case "IN_OUT_WARD":
+                            objSecurity = new clsSecurity();
+                            InOutWard objPl = new InOutWard();
+                            if (Data.Length > 2)
+                            {
+                                objPl.DbType = Data[1];
+                                objPl.Process = Data[2];
+                                objPl.WarehouseCode = Data[3];
+                                objPl.ModelNo = Data[4];
+                                objPl.Trip = Data[5];
+                                objPl.Barcode = Data[6];
+                                objPl.InStatus = Convert.IsDBNull(Data[7]) ? (bool?)null : Convert.ToBoolean(Data[7]);
+                                objPl.OutStatus = Convert.IsDBNull(Data[8]) ? (bool?)null : Convert.ToBoolean(Data[8]);
+                                objPl.CreatedBy = Data[9];
+                            }
+                            else
+                            {
+                                objPl.DbType = Data[1];
+                            }
+                            Response = objSecurity.In_Out_Ward(objPl);
                             objSecurity = null;
                             break;
                         #endregion

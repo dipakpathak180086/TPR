@@ -133,4 +133,20 @@ namespace TPR_App
     }
 
     #endregion
+
+    #region IN_OUT_WARD
+
+    public class InOutWard
+    {
+        public string DbType { get; set; }
+        public string Process { get; set; }
+        public string WarehouseCode { get; set; }
+        public string ModelNo { get; set; }
+        public string Barcode { get; set; }
+        public string Trip { get; set; }
+        public bool? InStatus { get; set; }
+        public bool? OutStatus { get; set; }
+        public string CreatedBy { get; set; }
+    }
+    #endregion
 }

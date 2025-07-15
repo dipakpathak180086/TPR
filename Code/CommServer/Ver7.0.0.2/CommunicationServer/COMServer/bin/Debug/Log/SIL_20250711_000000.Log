@@ -1,0 +1,106 @@
+
+[Log Startup at 16.22.35]
+2025-07-11 16.22.35.793 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2025-07-11 16.22.35.946 (Info) Server.StartService - Starting ClientServices...
+2025-07-11 16.22.36.049 (Info) ClientService.Initialize - Client service pool created for 500 threads.
+2025-07-11 16.22.43.999 (Info) ClientService.Start - Client threads on server: 500.
+2025-07-11 16.22.44.114 (Info) Server.StartService - Create new listener on server...
+2025-07-11 16.22.44.223 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2025-07-11 16.22.44.339 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2025-07-11 16.22.44.441 (Info) Server.Listener.Start - Starting listener...
+2025-07-11 16.22.44.543 (Info) Server.Listener - Server started on port 9100
+2025-07-11 16.23.24.256 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.23.24.391 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.23.24.506 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.23.24.610 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_APP_VERSION~
+2025-07-11 16.23.25.417 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~7.9
+2025-07-11 16.24.19.496 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.24.19.611 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.24.19.713 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.24.19.823 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=V_USER~1~1
+2025-07-11 16.24.19.933 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~1~1~ADMIN
+2025-07-11 16.24.20.043 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.24.20.156 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.24.20.268 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.24.20.382 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=GET_USER_RIGHT~ADMIN
+2025-07-11 16.24.20.484 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~101#102#104#105#106#107#108#109#110#201#202#203#204#205#206#207#208#209#211#212#213#214#215#216#217#218#219#220#221#222#301#302#303#304#305#306#307#308#309#310#311#312#313#401
+2025-07-11 16.24.22.555 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.24.22.666 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.24.22.777 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.24.22.887 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~BIND_PROCESS
+2025-07-11 16.24.22.997 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~CUTTING#MACHINING#PACKING
+2025-07-11 16.24.23.113 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.24.23.223 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.24.23.333 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.24.23.444 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~BIND_WH
+2025-07-11 16.24.23.553 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~W0001
+2025-07-11 16.24.23.664 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.24.23.780 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.24.23.890 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.24.24.000 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~BIND_MODEL
+2025-07-11 16.24.24.110 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~56RA0#68K20#83M00#84MB0#BR10#DRAGON#HSPP-Z4M/Z4V#K70#KYJF#Z4M#Z4V
+2025-07-11 16.24.24.226 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.24.24.336 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.24.24.445 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.24.24.548 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~BIND_TRIP
+2025-07-11 16.24.24.663 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~01#02#03#04#05#06#07#08#09#10
+2025-07-11 16.25.32.145 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.25.32.255 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.25.32.365 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.25.32.476 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~IN_PROCESS~MACHINING~W0001~BR10~01~BR10-09091910104-0102-0103~True~False~1
+2025-07-11 16.25.32.591 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~Y
+2025-07-11 16.25.48.313 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.25.48.423 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.25.48.539 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.25.48.649 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~OUT_PROCESS~CUTTING~W0001~84MB0~01~BR10-09091910104-0102-0103~False~True~1
+2025-07-11 16.25.48.758 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=INVALID~THIS BARCODE IS NOT BELONG TO THIS PROCESS OR QC NOT DONE
+2025-07-11 16.26.12.586 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.26.12.689 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.26.12.802 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.26.12.905 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~OUT_PROCESS~MACHINING~W0001~BR10~01~BR10-09091910104-0102-0103~False~True~1
+2025-07-11 16.26.13.019 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~Y
+2025-07-11 16.26.14.002 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.26.14.114 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.26.14.219 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.26.14.329 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~OUT_PROCESS~MACHINING~W0001~BR10~01~BR10-09091910104-0102-0103~False~True~1
+2025-07-11 16.26.14.441 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=INVALID~ALREADY SCANNED
+
+[Log Startup at 16.27.11]
+2025-07-11 16.27.11.568 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2025-07-11 16.27.11.676 (Info) Server.StartService - Starting ClientServices...
+2025-07-11 16.27.11.781 (Info) ClientService.Initialize - Client service pool created for 500 threads.
+2025-07-11 16.27.19.368 (Info) ClientService.Start - Client threads on server: 500.
+2025-07-11 16.27.19.477 (Info) Server.StartService - Create new listener on server...
+2025-07-11 16.27.19.582 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2025-07-11 16.27.19.692 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2025-07-11 16.27.19.802 (Info) Server.Listener.Start - Starting listener...
+2025-07-11 16.27.19.912 (Info) Server.Listener - Server started on port 9100
+2025-07-11 16.28.23.743 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.28.23.858 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.28.23.983 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.28.24.093 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~IN_PROCESS~MACHINING~W0001~BR10~01~BR10-09091910104-0102-0103~True~False~1
+2025-07-11 16.28.24.434 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=ERROR~Procedure or function PRC_IN_OUT_WARD has too many arguments specified.
+2025-07-11 16.28.47.408 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.28.49.190 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.28.49.347 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.28.49.854 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~IN_PROCESS~MACHINING~W0001~BR10~01~BR10-09091910104-0102-0103~True~False~1
+2025-07-11 16.29.13.669 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~Y
+2025-07-11 16.29.28.874 (Info) Server.Listener - New client connection detected...
+2025-07-11 16.29.30.823 (Info) ClientHandler.Initialize - Creating new client connection.
+2025-07-11 16.29.30.954 (Info) ClientHandler.Initialize - Connected client : 10.91.4.9
+2025-07-11 16.29.31.064 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Mesg=IN_OUT_WARD~OUT_PROCESS~MACHINING~W0001~BR10~01~BR10-09091910104-0102-0103~False~True~1
+2025-07-11 16.29.31.173 (Data) ClientHandler.ProcessData - IP=10.91.4.9 Resp=VALID~Y
+2025-07-11 17.51.45.432 (Info) ClientService.Process - Client Disconnected due to timeout IP=10.91.4.9
+2025-07-11 17.51.45.537 (Info) ClientHandler.Close - Duration: 01:23:21.7698538
+2025-07-11 17.51.45.639 (Info) ClientHandler.Close - Closing Connection to Client 10.91.4.9
+2025-07-11 17.51.45.753 (Info) ClientHandler.Close - Connection Closed.
+2025-07-11 17.52.34.566 (Info) ClientService.Process - Client Disconnected due to timeout IP=10.91.4.9
+2025-07-11 17.52.34.677 (Info) ClientHandler.Close - Duration: 01:23:47.1740849
+2025-07-11 17.52.34.786 (Info) ClientHandler.Close - Closing Connection to Client 10.91.4.9
+2025-07-11 17.52.34.901 (Info) ClientHandler.Close - Connection Closed.
+2025-07-11 17.52.52.083 (Info) ClientService.Process - Client Disconnected due to timeout IP=10.91.4.9
+2025-07-11 17.52.52.197 (Info) ClientHandler.Close - Duration: 01:23:23.1935381
+2025-07-11 17.52.52.307 (Info) ClientHandler.Close - Closing Connection to Client 10.91.4.9
+2025-07-11 17.52.52.416 (Info) ClientHandler.Close - Connection Closed.
+2025-07-11 17.59.44.513 (Info) Server.StopService - Stopping client services...
+2025-07-11 17.59.44.654 (Info) ClientService.Stop - Stopping thread service...

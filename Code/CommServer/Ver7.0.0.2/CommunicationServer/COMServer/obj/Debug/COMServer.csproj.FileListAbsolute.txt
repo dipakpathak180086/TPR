@@ -206,3 +206,15 @@ D:\Projects\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Deb
 D:\Projects\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
 D:\Projects\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.exe
 D:\Projects\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\SatoLib.dll
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.AssemblyReference.cache
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.Up2Date
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Projects\New Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
