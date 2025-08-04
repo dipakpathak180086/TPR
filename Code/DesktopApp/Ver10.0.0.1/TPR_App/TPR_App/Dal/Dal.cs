@@ -1365,7 +1365,7 @@ namespace TPR_App
         #endregion
 
         #region Warehouse Master
-        #region MyFuncation
+       
         /// <summary>
         /// Execute Operation 
         /// </summary>
@@ -1396,17 +1396,17 @@ namespace TPR_App
                 throw ex;
             }
         }
-        #endregion
+       
         #endregion
 
         #region Warehouse InOut Operation Report
 
-        public DataTable GetWarehouseOperationInOutReport(string Type, string FromDate = "", string ToDate = "", string Process = "")
+        public DataTable GetWarehouseOperationInOutReport(string Type, string FromDate = "", string ToDate = "", string Process = "",string Operation="")
         {
             clsDB oDb = new clsDB();
             try
             {
-                _SbQry = new StringBuilder("Exec [PRC_RPT_WHAREHOUSE_IN_OUT_OPREATION] '" + Type + "','" + FromDate + "','" + ToDate + "','" + Process + "'");
+                _SbQry = new StringBuilder("Exec [PRC_RPT_WHAREHOUSE_IN_OUT_OPREATION] '" + Type + "','" + FromDate + "','" + ToDate + "','" + Process + "','"+ Operation + "'");
                 oDb.Connect();
                 return oDb.GetDataTable(_SbQry.ToString());
             }
@@ -1418,7 +1418,36 @@ namespace TPR_App
             }
         }
         #endregion
+        #region InOut Delete Trolley
 
+        /// <summary>
+        /// Execute Operation 
+        /// </summary>
+        /// <returns></returns>
+        public DataTable DeleteInOutTrolleyCard(string strDbType,string strPorcess,string strTrolleyBarocde="")
+        {
+            _SqlHelper = new SqlHelper();
+            try
+            {
+                SqlParameter[] param = new SqlParameter[6];
+
+                param[0] = new SqlParameter("@TYPE", SqlDbType.VarChar, 100);
+                param[0].Value = strDbType;
+                param[1] = new SqlParameter("@PROCESS", SqlDbType.VarChar, 50);
+                param[1].Value = strPorcess;
+                param[2] = new SqlParameter("@BARCODE", SqlDbType.VarChar, 50);
+                param[2].Value = strTrolleyBarocde;
+                param[3] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 50);
+                param[3].Value = ClsGlobal.UserId;
+                return _SqlHelper.ExecuteDataset(ClsGlobal.mMainSqlConString, CommandType.StoredProcedure, "[PRC_IN_OUT_WARD]", param).Tables[0];
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        #endregion
     }
 
 }

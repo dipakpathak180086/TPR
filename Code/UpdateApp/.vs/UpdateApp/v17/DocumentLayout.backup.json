@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\New Project\\TPR\\Code\\UpdateApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UpdateApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9179801C-9608-4516-82D8-8F9C7039D51F}|UpdateApp.csproj|d:\\projects\\new project\\tpr\\code\\updateapp\\updateapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9179801C-9608-4516-82D8-8F9C7039D51F}|UpdateApp.csproj|solutionrelative:updateapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9179801C-9608-4516-82D8-8F9C7039D51F}|UpdateApp.csproj|d:\\projects\\new project\\tpr\\code\\updateapp\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateApp",
+              "DocumentMoniker": "D:\\Projects\\New Project\\TPR\\Code\\UpdateApp\\UpdateApp.csproj",
+              "RelativeDocumentMoniker": "UpdateApp.csproj",
+              "ToolTip": "D:\\Projects\\New Project\\TPR\\Code\\UpdateApp\\UpdateApp.csproj",
+              "RelativeToolTip": "UpdateApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-16T10:05:30.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\New Project\\TPR\\Code\\UpdateApp\\UpdateApp\\Program.cs",
+              "RelativeDocumentMoniker": "UpdateApp\\Program.cs",
+              "ToolTip": "D:\\Projects\\New Project\\TPR\\Code\\UpdateApp\\UpdateApp\\Program.cs",
+              "RelativeToolTip": "UpdateApp\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCkAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:57:20.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -40,7 +40,8 @@ namespace TPR_App
             {
                 this.FormBorderStyle = FormBorderStyle.None;
                 this.WindowState = FormWindowState.Maximized;
-
+                cmbOperation.SelectedIndex = 0;
+                cmbProcess.SelectedIndex = 0;
                 lblMessage.Text = "";
                 BindCombo();
             }
@@ -71,7 +72,8 @@ namespace TPR_App
                 }
 
                 string process = cmbProcess.SelectedIndex > 0 ? cmbProcess.SelectedItem.ToString() : "";
-                DataTable dt = oDal.GetWarehouseOperationInOutReport("SELECT", dtpFromDate.Value.ToString("yyyy-MM-dd"), dtpToDate.Value.ToString("yyyy-MM-dd"), process);
+                string opreation = cmbOperation.SelectedIndex > 0 ? cmbOperation.SelectedItem.ToString() : "";
+                DataTable dt = oDal.GetWarehouseOperationInOutReport("SELECT", dtpFromDate.Value.ToString("yyyy-MM-dd"), dtpToDate.Value.ToString("yyyy-MM-dd"), process, opreation);
                 if (dt.Rows.Count > 0)
                     dgv.DataSource = dt;
                 lblCount.Text = "Rows Count : " + dgv.Rows.Count;

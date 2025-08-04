@@ -1,0 +1,6 @@
+D:\Projects\New Project\TPR\Code\UpdateApp\bin\Debug\UpdateApp.exe
+D:\Projects\New Project\TPR\Code\UpdateApp\bin\Debug\UpdateApp.pdb
+D:\Projects\New Project\TPR\Code\UpdateApp\obj\Debug\UpdateApp.csproj.AssemblyReference.cache
+D:\Projects\New Project\TPR\Code\UpdateApp\obj\Debug\UpdateApp.csproj.CoreCompileInputs.cache
+D:\Projects\New Project\TPR\Code\UpdateApp\obj\Debug\UpdateApp.exe
+D:\Projects\New Project\TPR\Code\UpdateApp\obj\Debug\UpdateApp.pdb

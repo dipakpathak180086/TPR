@@ -50,6 +50,8 @@
             this.lblMessage = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbOperation = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
@@ -74,6 +76,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.cmbOperation);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.cmbProcess);
             this.panel1.Controls.Add(this.lblCount);
@@ -381,6 +385,33 @@
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F);
+            this.label2.Location = new System.Drawing.Point(93, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 19);
+            this.label2.TabIndex = 208;
+            this.label2.Text = "Select Operation";
+            // 
+            // cmbOperation
+            // 
+            this.cmbOperation.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cmbOperation.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cmbOperation.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbOperation.Font = new System.Drawing.Font("Calibri", 12F);
+            this.cmbOperation.FormattingEnabled = true;
+            this.cmbOperation.Items.AddRange(new object[] {
+            "--Select---",
+            "IN",
+            "OUT"});
+            this.cmbOperation.Location = new System.Drawing.Point(216, 80);
+            this.cmbOperation.Name = "cmbOperation";
+            this.cmbOperation.Size = new System.Drawing.Size(443, 27);
+            this.cmbOperation.TabIndex = 207;
+            // 
             // frmRptInOutWarehouse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -424,5 +455,7 @@
         private System.Windows.Forms.Label lblCount;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbProcess;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cmbOperation;
     }
 }

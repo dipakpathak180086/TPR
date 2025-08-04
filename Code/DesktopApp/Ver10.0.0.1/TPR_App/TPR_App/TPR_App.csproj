@@ -106,6 +106,12 @@
     <Compile Include="ProcessForm\frmCustomerReturn.designer.cs">
       <DependentUpon>frmCustomerReturn.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProcessForm\frmDeleteInOutTrolleyCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessForm\frmDeleteInOutTrolleyCard.designer.cs">
+      <DependentUpon>frmDeleteInOutTrolleyCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProcessForm\frmDeleteTrolleyCard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -377,6 +383,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProcessForm\frmCustomerReturn.resx">
       <DependentUpon>frmCustomerReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessForm\frmDeleteInOutTrolleyCard.resx">
+      <DependentUpon>frmDeleteInOutTrolleyCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProcessForm\frmDeleteTrolleyCard.resx">
       <DependentUpon>frmDeleteTrolleyCard.cs</DependentUpon>

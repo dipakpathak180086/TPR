@@ -307,7 +307,7 @@ namespace COMServer
                 }
 
                 connectServer();
-                
+
                 lblConnect.Text = "Server Connected : Port : " + clsMsgRule.sPort;
             }
             catch (Exception ex)
@@ -623,7 +623,7 @@ namespace COMServer
 
                         case "REPRINT_MACHINING":
                             objSecurity = new clsSecurity();
-                            Response = objSecurity.ReprintMachiningTrolleyCard(Data[1], Data[2],Data[3]);
+                            Response = objSecurity.ReprintMachiningTrolleyCard(Data[1], Data[2], Data[3]);
                             objSecurity = null;
                             break;
 
@@ -794,7 +794,16 @@ namespace COMServer
                         case "IN_OUT_WARD":
                             objSecurity = new clsSecurity();
                             InOutWard objPl = new InOutWard();
-                            if (Data.Length > 2)
+                            if (Data.Length == 6)
+                            {
+                                objPl.DbType = Data[1];
+                                objPl.Process = Data[2];
+                                objPl.WarehouseCode = Data[3];
+                                objPl.ModelNo = Data[4];
+                                objPl.Trip = Data[5];
+                            }
+
+                            else if (Data.Length >6)
                             {
                                 objPl.DbType = Data[1];
                                 objPl.Process = Data[2];

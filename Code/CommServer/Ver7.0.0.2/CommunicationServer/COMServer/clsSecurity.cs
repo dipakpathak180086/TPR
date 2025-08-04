@@ -61,22 +61,58 @@ namespace COMServer.Classes
             catch (Exception ex) { throw ex; }
             return oRule.sResponse + "}";
         }
+        //internal string GetNewExeDesktop()
+        //{
+        //    try
+        //    {
+        //        if (!Directory.Exists(Application.StartupPath + "\\NewApp\\DesktopApp"))
+        //        {
+        //            throw new Exception("Location not defined for new app");
+        //        }
+        //        string[] AllFiles = Directory.GetFiles(Application.StartupPath + "\\NewApp\\DesktopApp");
+        //        string FileName = Path.GetFileName(AllFiles[0]);
+        //        byte[] FileNewExe = File.ReadAllBytes(Application.StartupPath + "\\NewApp\\DesktopApp\\" + FileName);
+
+        //        string exestring = Convert.ToBase64String(FileNewExe);
+        //        oRule.sResponse = clsMsgRule.sValid + "~" + exestring + "~" + FileName;
+        //    }
+        //    catch (Exception ex) { throw ex; }
+        //    return oRule.sResponse;
+        //}
         internal string GetNewExeDesktop()
         {
             try
             {
-                if (!Directory.Exists(Application.StartupPath + "\\NewApp\\DesktopApp"))
-                {
-                    throw new Exception("Location not defined for new app");
-                }
-                string[] AllFiles = Directory.GetFiles(Application.StartupPath + "\\NewApp\\DesktopApp");
-                string FileName = Path.GetFileName(AllFiles[0]);
-                byte[] FileNewExe = File.ReadAllBytes(Application.StartupPath + "\\NewApp\\DesktopApp\\" + FileName);
+                string folderPath = Path.Combine(Application.StartupPath, "NewApp", "DesktopApp");
 
-                string exestring = Convert.ToBase64String(FileNewExe);
-                oRule.sResponse = clsMsgRule.sValid + "~" + exestring + "~" + FileName;
+                if (!Directory.Exists(folderPath))
+                    throw new Exception("Location not defined for new app");
+
+                string[] allFiles = Directory.GetFiles(folderPath);
+
+                if (allFiles.Length == 0)
+                    throw new Exception("No files found in the folder");
+
+                List<string> encodedFiles = new List<string>();
+
+                foreach (string filePath in allFiles)
+                {
+                    string fileName = Path.GetFileName(filePath);
+                    byte[] fileBytes = File.ReadAllBytes(filePath);
+                    string base64String = Convert.ToBase64String(fileBytes);
+                    encodedFiles.Add($"{fileName}|{base64String}");
+                }
+
+                // Join all file data using ~ as separator
+                string combinedData = string.Join("~", encodedFiles);
+
+                oRule.sResponse = clsMsgRule.sValid + "~" + combinedData;
             }
-            catch (Exception ex) { throw ex; }
+            catch (Exception ex)
+            {
+                throw ex; // Consider logging instead of rethrowing the same exception
+            }
+
             return oRule.sResponse;
         }
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\comserver\\clssecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|solutionrelative:comserver\\clssecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\comserver\\frmserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|solutionrelative:comserver\\frmserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|d:\\projects\\new project\\tpr\\code\\commserver\\ver7.0.0.2\\communicationserver\\comserver\\frmserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|solutionrelative:comserver\\frmserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|d:\\projects\\new project\\tpr\\code\\commserver\\ver7.0.0.2\\communicationserver\\comserver\\clssecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|solutionrelative:comserver\\clssecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{025B23F4-ED59-4255-A003-BE1E2AE3D461}|COMServer\\COMServer.csproj|D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\comserver\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -82,31 +82,30 @@
               "RelativeToolTip": "COMServer\\Model\\Model.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAA5wJEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:58:33.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T09:58:33.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "clsSecurity.cs",
               "DocumentMoniker": "D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\COMServer\\clsSecurity.cs",
               "RelativeDocumentMoniker": "COMServer\\clsSecurity.cs",
               "ToolTip": "D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\COMServer\\clsSecurity.cs",
               "RelativeToolTip": "COMServer\\clsSecurity.cs",
-              "ViewState": "AgIAAFoEAAAAAAAAAAAAAGEEAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIgEAAAAAAAAAAAqwJ4EAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T09:57:08.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmServer.cs",
               "DocumentMoniker": "D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\COMServer\\frmServer.cs",
               "RelativeDocumentMoniker": "COMServer\\frmServer.cs",
               "ToolTip": "D:\\Projects\\New Project\\TPR\\Code\\CommServer\\Ver7.0.0.2\\CommunicationServer\\COMServer\\frmServer.cs",
               "RelativeToolTip": "COMServer\\frmServer.cs",
-              "ViewState": "AgIAAA0DAAAAAAAAAAAAACwDAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAQDAAAAAAAAAAAqwBoDAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T09:57:08.889Z",
               "EditorCaption": ""

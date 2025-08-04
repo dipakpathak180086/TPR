@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\New Project\\TPR\\Code\\DesktopApp\\Ver10.0.0.1\\TPR_App\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5EDBD468-A767-4A43-B051-E2AB523BABB0}|TPR_App\\TPR_App.csproj|d:\\projects\\new project\\tpr\\code\\desktopapp\\ver10.0.0.1\\tpr_app\\tpr_app\\reportform\\frmrptinoutwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EDBD468-A767-4A43-B051-E2AB523BABB0}|TPR_App\\TPR_App.csproj|solutionrelative:tpr_app\\reportform\\frmrptinoutwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EDBD468-A767-4A43-B051-E2AB523BABB0}|TPR_App\\TPR_App.csproj|d:\\projects\\new project\\tpr\\code\\desktopapp\\ver10.0.0.1\\tpr_app\\tpr_app\\reportform\\frmrptinoutwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5EDBD468-A767-4A43-B051-E2AB523BABB0}|TPR_App\\TPR_App.csproj|solutionrelative:tpr_app\\reportform\\frmrptinoutwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmRptInOutWarehouse.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\TPR\\Code\\DesktopApp\\Ver10.0.0.1\\TPR_App\\TPR_App\\ReportForm\\frmRptInOutWarehouse.cs",
-              "RelativeDocumentMoniker": "TPR_App\\ReportForm\\frmRptInOutWarehouse.cs",
-              "ToolTip": "D:\\Projects\\New Project\\TPR\\Code\\DesktopApp\\Ver10.0.0.1\\TPR_App\\TPR_App\\ReportForm\\frmRptInOutWarehouse.cs",
-              "RelativeToolTip": "TPR_App\\ReportForm\\frmRptInOutWarehouse.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAD8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T11:59:16.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRptInOutWarehouse.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\New Project\\TPR\\Code\\DesktopApp\\Ver10.0.0.1\\TPR_App\\TPR_App\\ReportForm\\frmRptInOutWarehouse.cs",
-              "RelativeDocumentMoniker": "TPR_App\\ReportForm\\frmRptInOutWarehouse.cs",
-              "ToolTip": "D:\\Projects\\New Project\\TPR\\Code\\DesktopApp\\Ver10.0.0.1\\TPR_App\\TPR_App\\ReportForm\\frmRptInOutWarehouse.cs [Design]",
-              "RelativeToolTip": "TPR_App\\ReportForm\\frmRptInOutWarehouse.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T11:59:15.062Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

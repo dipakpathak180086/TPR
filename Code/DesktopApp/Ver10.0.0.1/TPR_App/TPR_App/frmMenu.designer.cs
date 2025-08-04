@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.panel1 = new System.Windows.Forms.Panel();
             this.picChangePassword = new System.Windows.Forms.PictureBox();
@@ -134,6 +134,8 @@
             this.picCutting = new System.Windows.Forms.PictureBox();
             this.picProductionPlan = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.lblInOutReport = new System.Windows.Forms.Label();
+            this.picInOutReport = new System.Windows.Forms.PictureBox();
             this.lblMachiningPackingHistory = new System.Windows.Forms.Label();
             this.picPendingMachiningPackingHistory = new System.Windows.Forms.PictureBox();
             this.lblTrolleyExchangeHistory = new System.Windows.Forms.Label();
@@ -170,8 +172,8 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.lblInOutReport = new System.Windows.Forms.Label();
-            this.picInOutReport = new System.Windows.Forms.PictureBox();
+            this.lblInOutDeleteTrolley = new System.Windows.Forms.Label();
+            this.picInOutDeleteTrolley = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picChangePassword)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -212,6 +214,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picCutting)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picProductionPlan)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picInOutReport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPendingMachiningPackingHistory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTrolleyExchangeHistory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picReprintHistory)).BeginInit();
@@ -228,7 +231,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picInOutReport)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picInOutDeleteTrolley)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -245,14 +248,14 @@
             this.panel1.Location = new System.Drawing.Point(8, 56);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(923, 510);
+            this.panel1.Size = new System.Drawing.Size(944, 556);
             this.panel1.TabIndex = 8;
             // 
             // picChangePassword
             // 
             this.picChangePassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picChangePassword.Image = global::TPR_App.Properties.Resources.iconfinder_change_password_63985;
-            this.picChangePassword.Location = new System.Drawing.Point(879, 42);
+            this.picChangePassword.Location = new System.Drawing.Point(900, 42);
             this.picChangePassword.Name = "picChangePassword";
             this.picChangePassword.Size = new System.Drawing.Size(39, 36);
             this.picChangePassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -270,7 +273,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(889, 490);
+            this.tabControl1.Size = new System.Drawing.Size(910, 536);
             this.tabControl1.TabIndex = 140;
             // 
             // tabPage4
@@ -836,12 +839,12 @@
             this.dgv.MultiSelect = false;
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dgv.Size = new System.Drawing.Size(562, 475);
+            this.dgv.Size = new System.Drawing.Size(562, 481);
             this.dgv.StandardTab = true;
             this.dgv.TabIndex = 203;
             this.dgv.TabStop = false;
@@ -1192,6 +1195,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.lblInOutDeleteTrolley);
+            this.tabPage2.Controls.Add(this.picInOutDeleteTrolley);
             this.tabPage2.Controls.Add(this.lblExchangeFinalPackingTrolley);
             this.tabPage2.Controls.Add(this.lblHoldPacking);
             this.tabPage2.Controls.Add(this.lblFifoAction);
@@ -1227,7 +1232,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 28);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(881, 458);
+            this.tabPage2.Size = new System.Drawing.Size(902, 504);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Process";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1237,19 +1242,19 @@
             this.lblExchangeFinalPackingTrolley.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblExchangeFinalPackingTrolley.AutoSize = true;
             this.lblExchangeFinalPackingTrolley.Enabled = false;
-            this.lblExchangeFinalPackingTrolley.Location = new System.Drawing.Point(3, 435);
+            this.lblExchangeFinalPackingTrolley.Location = new System.Drawing.Point(37, 435);
             this.lblExchangeFinalPackingTrolley.Name = "lblExchangeFinalPackingTrolley";
-            this.lblExchangeFinalPackingTrolley.Size = new System.Drawing.Size(207, 19);
+            this.lblExchangeFinalPackingTrolley.Size = new System.Drawing.Size(106, 38);
             this.lblExchangeFinalPackingTrolley.TabIndex = 33;
             this.lblExchangeFinalPackingTrolley.Tag = "219";
-            this.lblExchangeFinalPackingTrolley.Text = "Exchange Final Packing Trolley";
+            this.lblExchangeFinalPackingTrolley.Text = "Exchange Final\r\nPacking Trolley";
             // 
             // lblHoldPacking
             // 
             this.lblHoldPacking.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblHoldPacking.AutoSize = true;
             this.lblHoldPacking.Enabled = false;
-            this.lblHoldPacking.Location = new System.Drawing.Point(628, 322);
+            this.lblHoldPacking.Location = new System.Drawing.Point(639, 322);
             this.lblHoldPacking.Name = "lblHoldPacking";
             this.lblHoldPacking.Size = new System.Drawing.Size(93, 19);
             this.lblHoldPacking.TabIndex = 31;
@@ -1261,7 +1266,7 @@
             this.lblFifoAction.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblFifoAction.AutoSize = true;
             this.lblFifoAction.Enabled = false;
-            this.lblFifoAction.Location = new System.Drawing.Point(486, 322);
+            this.lblFifoAction.Location = new System.Drawing.Point(497, 322);
             this.lblFifoAction.Name = "lblFifoAction";
             this.lblFifoAction.Size = new System.Drawing.Size(83, 19);
             this.lblFifoAction.TabIndex = 29;
@@ -1273,7 +1278,7 @@
             this.lblDeleteTrolleyCard.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDeleteTrolleyCard.AutoSize = true;
             this.lblDeleteTrolleyCard.Enabled = false;
-            this.lblDeleteTrolleyCard.Location = new System.Drawing.Point(297, 322);
+            this.lblDeleteTrolleyCard.Location = new System.Drawing.Point(308, 322);
             this.lblDeleteTrolleyCard.Name = "lblDeleteTrolleyCard";
             this.lblDeleteTrolleyCard.Size = new System.Drawing.Size(133, 19);
             this.lblDeleteTrolleyCard.TabIndex = 27;
@@ -1285,7 +1290,7 @@
             this.lblCustomerReturn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCustomerReturn.AutoSize = true;
             this.lblCustomerReturn.Enabled = false;
-            this.lblCustomerReturn.Location = new System.Drawing.Point(167, 322);
+            this.lblCustomerReturn.Location = new System.Drawing.Point(178, 322);
             this.lblCustomerReturn.Name = "lblCustomerReturn";
             this.lblCustomerReturn.Size = new System.Drawing.Size(118, 19);
             this.lblCustomerReturn.TabIndex = 25;
@@ -1296,7 +1301,7 @@
             this.lblAfterMachiningNg.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAfterMachiningNg.AutoSize = true;
             this.lblAfterMachiningNg.Enabled = false;
-            this.lblAfterMachiningNg.Location = new System.Drawing.Point(9, 322);
+            this.lblAfterMachiningNg.Location = new System.Drawing.Point(20, 322);
             this.lblAfterMachiningNg.Name = "lblAfterMachiningNg";
             this.lblAfterMachiningNg.Size = new System.Drawing.Size(137, 19);
             this.lblAfterMachiningNg.TabIndex = 23;
@@ -1306,7 +1311,7 @@
             // 
             this.labelNgPer.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelNgPer.AutoSize = true;
-            this.labelNgPer.Location = new System.Drawing.Point(637, 213);
+            this.labelNgPer.Location = new System.Drawing.Point(648, 213);
             this.labelNgPer.Name = "labelNgPer";
             this.labelNgPer.Size = new System.Drawing.Size(68, 19);
             this.labelNgPer.TabIndex = 21;
@@ -1317,7 +1322,7 @@
             this.lblMachiningHold.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblMachiningHold.AutoSize = true;
             this.lblMachiningHold.Enabled = false;
-            this.lblMachiningHold.Location = new System.Drawing.Point(439, 213);
+            this.lblMachiningHold.Location = new System.Drawing.Point(450, 213);
             this.lblMachiningHold.Name = "lblMachiningHold";
             this.lblMachiningHold.Size = new System.Drawing.Size(165, 19);
             this.lblMachiningHold.TabIndex = 19;
@@ -1328,7 +1333,7 @@
             this.lblDispatchCancel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDispatchCancel.AutoSize = true;
             this.lblDispatchCancel.Enabled = false;
-            this.lblDispatchCancel.Location = new System.Drawing.Point(313, 213);
+            this.lblDispatchCancel.Location = new System.Drawing.Point(324, 213);
             this.lblDispatchCancel.Name = "lblDispatchCancel";
             this.lblDispatchCancel.Size = new System.Drawing.Size(114, 19);
             this.lblDispatchCancel.TabIndex = 17;
@@ -1339,7 +1344,7 @@
             this.lblCuttingCardUpdat.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCuttingCardUpdat.AutoSize = true;
             this.lblCuttingCardUpdat.Enabled = false;
-            this.lblCuttingCardUpdat.Location = new System.Drawing.Point(149, 213);
+            this.lblCuttingCardUpdat.Location = new System.Drawing.Point(160, 213);
             this.lblCuttingCardUpdat.Name = "lblCuttingCardUpdat";
             this.lblCuttingCardUpdat.Size = new System.Drawing.Size(141, 19);
             this.lblCuttingCardUpdat.TabIndex = 15;
@@ -1350,7 +1355,7 @@
             this.lblReprint.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblReprint.AutoSize = true;
             this.lblReprint.Enabled = false;
-            this.lblReprint.Location = new System.Drawing.Point(45, 213);
+            this.lblReprint.Location = new System.Drawing.Point(56, 213);
             this.lblReprint.Name = "lblReprint";
             this.lblReprint.Size = new System.Drawing.Size(56, 19);
             this.lblReprint.TabIndex = 13;
@@ -1361,7 +1366,7 @@
             this.lblQASampling.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblQASampling.AutoSize = true;
             this.lblQASampling.Enabled = false;
-            this.lblQASampling.Location = new System.Drawing.Point(477, 102);
+            this.lblQASampling.Location = new System.Drawing.Point(488, 102);
             this.lblQASampling.Name = "lblQASampling";
             this.lblQASampling.Size = new System.Drawing.Size(92, 19);
             this.lblQASampling.TabIndex = 11;
@@ -1372,7 +1377,7 @@
             this.lblQA.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblQA.AutoSize = true;
             this.lblQA.Enabled = false;
-            this.lblQA.Location = new System.Drawing.Point(352, 102);
+            this.lblQA.Location = new System.Drawing.Point(363, 102);
             this.lblQA.Name = "lblQA";
             this.lblQA.Size = new System.Drawing.Size(29, 19);
             this.lblQA.TabIndex = 9;
@@ -1383,7 +1388,7 @@
             this.lblDispatchOrder.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDispatchOrder.AutoSize = true;
             this.lblDispatchOrder.Enabled = false;
-            this.lblDispatchOrder.Location = new System.Drawing.Point(616, 102);
+            this.lblDispatchOrder.Location = new System.Drawing.Point(627, 102);
             this.lblDispatchOrder.Name = "lblDispatchOrder";
             this.lblDispatchOrder.Size = new System.Drawing.Size(107, 19);
             this.lblDispatchOrder.TabIndex = 7;
@@ -1394,7 +1399,7 @@
             this.lblCutting.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCutting.AutoSize = true;
             this.lblCutting.Enabled = false;
-            this.lblCutting.Location = new System.Drawing.Point(195, 102);
+            this.lblCutting.Location = new System.Drawing.Point(206, 102);
             this.lblCutting.Name = "lblCutting";
             this.lblCutting.Size = new System.Drawing.Size(56, 19);
             this.lblCutting.TabIndex = 5;
@@ -1405,7 +1410,7 @@
             this.lblProductionPlan.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblProductionPlan.AutoSize = true;
             this.lblProductionPlan.Enabled = false;
-            this.lblProductionPlan.Location = new System.Drawing.Point(26, 102);
+            this.lblProductionPlan.Location = new System.Drawing.Point(37, 102);
             this.lblProductionPlan.Name = "lblProductionPlan";
             this.lblProductionPlan.Size = new System.Drawing.Size(110, 19);
             this.lblProductionPlan.TabIndex = 3;
@@ -1417,7 +1422,7 @@
             this.picExchangeFinalPackingTrolley.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picExchangeFinalPackingTrolley.Enabled = false;
             this.picExchangeFinalPackingTrolley.Image = global::TPR_App.Properties.Resources.iconfinder_juice_pack_307358;
-            this.picExchangeFinalPackingTrolley.Location = new System.Drawing.Point(30, 359);
+            this.picExchangeFinalPackingTrolley.Location = new System.Drawing.Point(41, 359);
             this.picExchangeFinalPackingTrolley.Name = "picExchangeFinalPackingTrolley";
             this.picExchangeFinalPackingTrolley.Size = new System.Drawing.Size(100, 73);
             this.picExchangeFinalPackingTrolley.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1432,7 +1437,7 @@
             this.picHoldPacking.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picHoldPacking.Enabled = false;
             this.picHoldPacking.Image = global::TPR_App.Properties.Resources.iconfinder_juice_pack_307358;
-            this.picHoldPacking.Location = new System.Drawing.Point(623, 246);
+            this.picHoldPacking.Location = new System.Drawing.Point(634, 246);
             this.picHoldPacking.Name = "picHoldPacking";
             this.picHoldPacking.Size = new System.Drawing.Size(100, 73);
             this.picHoldPacking.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1447,7 +1452,7 @@
             this.picFifoAction.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picFifoAction.Enabled = false;
             this.picFifoAction.Image = global::TPR_App.Properties.Resources.iconfinder_juice_pack_307358;
-            this.picFifoAction.Location = new System.Drawing.Point(481, 246);
+            this.picFifoAction.Location = new System.Drawing.Point(492, 246);
             this.picFifoAction.Name = "picFifoAction";
             this.picFifoAction.Size = new System.Drawing.Size(100, 73);
             this.picFifoAction.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1462,7 +1467,7 @@
             this.picDeleteTrolleyCard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picDeleteTrolleyCard.Enabled = false;
             this.picDeleteTrolleyCard.Image = global::TPR_App.Properties.Resources.iconfinder_Checklist_clipboard_inventory_list_report_tasks_todo_1886533;
-            this.picDeleteTrolleyCard.Location = new System.Drawing.Point(317, 246);
+            this.picDeleteTrolleyCard.Location = new System.Drawing.Point(328, 246);
             this.picDeleteTrolleyCard.Name = "picDeleteTrolleyCard";
             this.picDeleteTrolleyCard.Size = new System.Drawing.Size(100, 73);
             this.picDeleteTrolleyCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1477,7 +1482,7 @@
             this.picCustomerReturn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCustomerReturn.Enabled = false;
             this.picCustomerReturn.Image = global::TPR_App.Properties.Resources.iconfinder_47_cart_shopping_shipping_item_store_4308034;
-            this.picCustomerReturn.Location = new System.Drawing.Point(171, 246);
+            this.picCustomerReturn.Location = new System.Drawing.Point(182, 246);
             this.picCustomerReturn.Name = "picCustomerReturn";
             this.picCustomerReturn.Size = new System.Drawing.Size(100, 73);
             this.picCustomerReturn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1492,7 +1497,7 @@
             this.picAfterMachiningNg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picAfterMachiningNg.Enabled = false;
             this.picAfterMachiningNg.Image = global::TPR_App.Properties.Resources.iconfinder_AB_testing_3380369;
-            this.picAfterMachiningNg.Location = new System.Drawing.Point(30, 246);
+            this.picAfterMachiningNg.Location = new System.Drawing.Point(41, 246);
             this.picAfterMachiningNg.Name = "picAfterMachiningNg";
             this.picAfterMachiningNg.Size = new System.Drawing.Size(100, 73);
             this.picAfterMachiningNg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1507,7 +1512,7 @@
             this.pictureBoxNgPer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxNgPer.Enabled = false;
             this.pictureBoxNgPer.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNgPer.Image")));
-            this.pictureBoxNgPer.Location = new System.Drawing.Point(620, 137);
+            this.pictureBoxNgPer.Location = new System.Drawing.Point(631, 137);
             this.pictureBoxNgPer.Name = "pictureBoxNgPer";
             this.pictureBoxNgPer.Size = new System.Drawing.Size(100, 73);
             this.pictureBoxNgPer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1522,7 +1527,7 @@
             this.pictureBoxMachiningHold.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMachiningHold.Enabled = false;
             this.pictureBoxMachiningHold.Image = global::TPR_App.Properties.Resources.iconfinder_AB_testing_3380369;
-            this.pictureBoxMachiningHold.Location = new System.Drawing.Point(469, 137);
+            this.pictureBoxMachiningHold.Location = new System.Drawing.Point(480, 137);
             this.pictureBoxMachiningHold.Name = "pictureBoxMachiningHold";
             this.pictureBoxMachiningHold.Size = new System.Drawing.Size(100, 73);
             this.pictureBoxMachiningHold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1537,7 +1542,7 @@
             this.pictureBoxDispatchCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxDispatchCancel.Enabled = false;
             this.pictureBoxDispatchCancel.Image = global::TPR_App.Properties.Resources.iconfinder_47_cart_shopping_shipping_item_store_4308034;
-            this.pictureBoxDispatchCancel.Location = new System.Drawing.Point(317, 137);
+            this.pictureBoxDispatchCancel.Location = new System.Drawing.Point(328, 137);
             this.pictureBoxDispatchCancel.Name = "pictureBoxDispatchCancel";
             this.pictureBoxDispatchCancel.Size = new System.Drawing.Size(100, 73);
             this.pictureBoxDispatchCancel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1552,7 +1557,7 @@
             this.picCuttingCardUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCuttingCardUpdate.Enabled = false;
             this.picCuttingCardUpdate.Image = global::TPR_App.Properties.Resources.iconfinder_WebInSquare_1_5EXTENDED_19_2557852;
-            this.picCuttingCardUpdate.Location = new System.Drawing.Point(171, 137);
+            this.picCuttingCardUpdate.Location = new System.Drawing.Point(182, 137);
             this.picCuttingCardUpdate.Name = "picCuttingCardUpdate";
             this.picCuttingCardUpdate.Size = new System.Drawing.Size(100, 73);
             this.picCuttingCardUpdate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1567,7 +1572,7 @@
             this.picReprint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picReprint.Enabled = false;
             this.picReprint.Image = global::TPR_App.Properties.Resources.iconfinder_document_print_118913;
-            this.picReprint.Location = new System.Drawing.Point(30, 137);
+            this.picReprint.Location = new System.Drawing.Point(41, 137);
             this.picReprint.Name = "picReprint";
             this.picReprint.Size = new System.Drawing.Size(100, 73);
             this.picReprint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1582,7 +1587,7 @@
             this.picQASampling.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picQASampling.Enabled = false;
             this.picQASampling.Image = global::TPR_App.Properties.Resources.iconfinder_AB_testing_3380369;
-            this.picQASampling.Location = new System.Drawing.Point(469, 26);
+            this.picQASampling.Location = new System.Drawing.Point(480, 26);
             this.picQASampling.Name = "picQASampling";
             this.picQASampling.Size = new System.Drawing.Size(100, 73);
             this.picQASampling.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1597,7 +1602,7 @@
             this.picQA.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picQA.Enabled = false;
             this.picQA.Image = global::TPR_App.Properties.Resources.iconfinder_AB_testing_3380369;
-            this.picQA.Location = new System.Drawing.Point(317, 26);
+            this.picQA.Location = new System.Drawing.Point(328, 26);
             this.picQA.Name = "picQA";
             this.picQA.Size = new System.Drawing.Size(100, 73);
             this.picQA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1612,7 +1617,7 @@
             this.picDispatchOrder.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picDispatchOrder.Enabled = false;
             this.picDispatchOrder.Image = global::TPR_App.Properties.Resources.iconfinder_47_cart_shopping_shipping_item_store_4308034;
-            this.picDispatchOrder.Location = new System.Drawing.Point(620, 26);
+            this.picDispatchOrder.Location = new System.Drawing.Point(631, 26);
             this.picDispatchOrder.Name = "picDispatchOrder";
             this.picDispatchOrder.Size = new System.Drawing.Size(100, 73);
             this.picDispatchOrder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1627,7 +1632,7 @@
             this.picCutting.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picCutting.Enabled = false;
             this.picCutting.Image = ((System.Drawing.Image)(resources.GetObject("picCutting.Image")));
-            this.picCutting.Location = new System.Drawing.Point(171, 26);
+            this.picCutting.Location = new System.Drawing.Point(182, 26);
             this.picCutting.Name = "picCutting";
             this.picCutting.Size = new System.Drawing.Size(100, 73);
             this.picCutting.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1642,7 +1647,7 @@
             this.picProductionPlan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picProductionPlan.Enabled = false;
             this.picProductionPlan.Image = ((System.Drawing.Image)(resources.GetObject("picProductionPlan.Image")));
-            this.picProductionPlan.Location = new System.Drawing.Point(30, 26);
+            this.picProductionPlan.Location = new System.Drawing.Point(41, 26);
             this.picProductionPlan.Name = "picProductionPlan";
             this.picProductionPlan.Size = new System.Drawing.Size(100, 73);
             this.picProductionPlan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1688,6 +1693,32 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Report";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // lblInOutReport
+            // 
+            this.lblInOutReport.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblInOutReport.AutoSize = true;
+            this.lblInOutReport.Enabled = false;
+            this.lblInOutReport.Location = new System.Drawing.Point(603, 307);
+            this.lblInOutReport.Name = "lblInOutReport";
+            this.lblInOutReport.Size = new System.Drawing.Size(151, 19);
+            this.lblInOutReport.TabIndex = 38;
+            this.lblInOutReport.Text = "Warehouse Opreation";
+            // 
+            // picInOutReport
+            // 
+            this.picInOutReport.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.picInOutReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picInOutReport.Enabled = false;
+            this.picInOutReport.Image = ((System.Drawing.Image)(resources.GetObject("picInOutReport.Image")));
+            this.picInOutReport.Location = new System.Drawing.Point(627, 231);
+            this.picInOutReport.Name = "picInOutReport";
+            this.picInOutReport.Size = new System.Drawing.Size(100, 73);
+            this.picInOutReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picInOutReport.TabIndex = 37;
+            this.picInOutReport.TabStop = false;
+            this.picInOutReport.Tag = "308";
+            this.picInOutReport.Click += new System.EventHandler(this.picInOutReport_Click);
             // 
             // lblMachiningPackingHistory
             // 
@@ -2032,10 +2063,10 @@
             this.lblWelcome.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblWelcome.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.Purple;
-            this.lblWelcome.Location = new System.Drawing.Point(0, 490);
+            this.lblWelcome.Location = new System.Drawing.Point(0, 536);
             this.lblWelcome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(889, 18);
+            this.lblWelcome.Size = new System.Drawing.Size(910, 18);
             this.lblWelcome.TabIndex = 139;
             this.lblWelcome.Text = "test";
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -2045,9 +2076,9 @@
             this.picLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLogOut.Dock = System.Windows.Forms.DockStyle.Right;
             this.picLogOut.Image = ((System.Drawing.Image)(resources.GetObject("picLogOut.Image")));
-            this.picLogOut.Location = new System.Drawing.Point(889, 0);
+            this.picLogOut.Location = new System.Drawing.Point(910, 0);
             this.picLogOut.Name = "picLogOut";
-            this.picLogOut.Size = new System.Drawing.Size(32, 508);
+            this.picLogOut.Size = new System.Drawing.Size(32, 554);
             this.picLogOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picLogOut.TabIndex = 16;
             this.picLogOut.TabStop = false;
@@ -2069,7 +2100,7 @@
             this.lblReOilingCount.Enabled = false;
             this.lblReOilingCount.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReOilingCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblReOilingCount.Location = new System.Drawing.Point(302, 21);
+            this.lblReOilingCount.Location = new System.Drawing.Point(313, 21);
             this.lblReOilingCount.Name = "lblReOilingCount";
             this.lblReOilingCount.Size = new System.Drawing.Size(317, 61);
             this.lblReOilingCount.TabIndex = 168;
@@ -2082,7 +2113,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(358, 0);
+            this.label1.Location = new System.Drawing.Point(369, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(218, 18);
@@ -2098,7 +2129,7 @@
             // 
             this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox12.Image = global::TPR_App.Properties.Resources.logo_header;
-            this.pictureBox12.Location = new System.Drawing.Point(791, 2);
+            this.pictureBox12.Location = new System.Drawing.Point(812, 2);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(141, 51);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2115,38 +2146,39 @@
             this.pictureBox11.TabIndex = 16;
             this.pictureBox11.TabStop = false;
             // 
-            // lblInOutReport
+            // lblInOutDeleteTrolley
             // 
-            this.lblInOutReport.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblInOutReport.AutoSize = true;
-            this.lblInOutReport.Enabled = false;
-            this.lblInOutReport.Location = new System.Drawing.Point(603, 307);
-            this.lblInOutReport.Name = "lblInOutReport";
-            this.lblInOutReport.Size = new System.Drawing.Size(151, 19);
-            this.lblInOutReport.TabIndex = 38;
-            this.lblInOutReport.Text = "Warehouse Opreation";
+            this.lblInOutDeleteTrolley.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblInOutDeleteTrolley.AutoSize = true;
+            this.lblInOutDeleteTrolley.Enabled = false;
+            this.lblInOutDeleteTrolley.Location = new System.Drawing.Point(184, 435);
+            this.lblInOutDeleteTrolley.Name = "lblInOutDeleteTrolley";
+            this.lblInOutDeleteTrolley.Size = new System.Drawing.Size(97, 38);
+            this.lblInOutDeleteTrolley.TabIndex = 35;
+            this.lblInOutDeleteTrolley.Tag = "219";
+            this.lblInOutDeleteTrolley.Text = "In-Out Delete\r\nTrolley Card";
             // 
-            // picInOutReport
+            // picInOutDeleteTrolley
             // 
-            this.picInOutReport.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.picInOutReport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picInOutReport.Enabled = false;
-            this.picInOutReport.Image = ((System.Drawing.Image)(resources.GetObject("picInOutReport.Image")));
-            this.picInOutReport.Location = new System.Drawing.Point(627, 231);
-            this.picInOutReport.Name = "picInOutReport";
-            this.picInOutReport.Size = new System.Drawing.Size(100, 73);
-            this.picInOutReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picInOutReport.TabIndex = 37;
-            this.picInOutReport.TabStop = false;
-            this.picInOutReport.Tag = "308";
-            this.picInOutReport.Click += new System.EventHandler(this.picInOutReport_Click);
+            this.picInOutDeleteTrolley.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.picInOutDeleteTrolley.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picInOutDeleteTrolley.Enabled = false;
+            this.picInOutDeleteTrolley.Image = global::TPR_App.Properties.Resources.iconfinder_Checklist_clipboard_inventory_list_report_tasks_todo_1886533;
+            this.picInOutDeleteTrolley.Location = new System.Drawing.Point(182, 359);
+            this.picInOutDeleteTrolley.Name = "picInOutDeleteTrolley";
+            this.picInOutDeleteTrolley.Size = new System.Drawing.Size(100, 73);
+            this.picInOutDeleteTrolley.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picInOutDeleteTrolley.TabIndex = 34;
+            this.picInOutDeleteTrolley.TabStop = false;
+            this.picInOutDeleteTrolley.Tag = "218";
+            this.picInOutDeleteTrolley.Click += new System.EventHandler(this.picInOutDeleteTrolley_Click);
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(939, 571);
+            this.ClientSize = new System.Drawing.Size(960, 617);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblReOilingCount);
             this.Controls.Add(this.pictureBox12);
@@ -2208,6 +2240,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picProductionPlan)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picInOutReport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPendingMachiningPackingHistory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTrolleyExchangeHistory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picReprintHistory)).EndInit();
@@ -2224,7 +2257,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picInOutReport)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picInOutDeleteTrolley)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2371,5 +2404,7 @@
         private System.Windows.Forms.PictureBox picWHMater;
         private System.Windows.Forms.Label lblInOutReport;
         private System.Windows.Forms.PictureBox picInOutReport;
+        private System.Windows.Forms.Label lblInOutDeleteTrolley;
+        private System.Windows.Forms.PictureBox picInOutDeleteTrolley;
     }
 }

@@ -226,3 +226,4 @@ D:\Projects\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\bin\Debu
 D:\Projects\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.AssemblyReference.cache
 D:\Projects\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.csproj.Up2Date
 D:\Projects\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmRptInOutWarehouse.resources
+D:\Projects\New Project\TPR\Code\DesktopApp\Ver10.0.0.1\TPR_App\TPR_App\obj\Debug\TPR_App.frmDeleteInOutTrolleyCard.resources

@@ -491,6 +491,10 @@ namespace TPR_App
                             picExchangeFinalPackingTrolley.Enabled = true;
                             lblExchangeFinalPackingTrolley.Enabled = true;
                             break;
+                        case "223":
+                            picInOutDeleteTrolley.Enabled = true;
+                            lblInOutDeleteTrolley.Enabled = true;
+                            break;
                         case "301":
                             picRptCutting.Enabled = true;
                             lblRptCutting.Enabled = true;
@@ -913,6 +917,14 @@ namespace TPR_App
         private void picInOutReport_Click(object sender, EventArgs e)
         {
             frmRptInOutWarehouse frm = new frmRptInOutWarehouse();
+            frm.Show();
+            frm.FormClosing += OFrm_FormClosing;
+            this.Hide();
+        }
+
+        private void picInOutDeleteTrolley_Click(object sender, EventArgs e)
+        {
+            frmDeleteInOutTrolleyCard frm = new frmDeleteInOutTrolleyCard();
             frm.Show();
             frm.FormClosing += OFrm_FormClosing;
             this.Hide();
